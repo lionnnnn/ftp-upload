@@ -1,0 +1,24 @@
+{
+  "name": "ftp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "myftp": "cmd.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "ftp": "^0.3.10",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
