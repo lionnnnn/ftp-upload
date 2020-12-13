@@ -1,0 +1,803 @@
+[2020-12-12T11:49:54.133] [ERROR] default - test error
+[2020-12-12T11:49:54.135] [DEBUG] default - Got cheese.
+[2020-12-12T11:49:54.135] [INFO] default - Cheese is Comté.
+[2020-12-12T11:49:54.135] [WARN] default - Cheese is quite smelly.
+[2020-12-12T11:49:54.135] [ERROR] default - Cheese is too ripe!
+[2020-12-12T11:49:54.135] [FATAL] default - Cheese was breeding ground for listeria.
+[2020-12-12T15:01:53.387] [INFO] default - [login]: options => [object Object]
+[2020-12-12T15:03:00.833] [INFO] default - [login]: options => [object Object]
+[2020-12-12T15:03:54.785] [INFO] default - [login]: options => [object Object]
+[2020-12-12T15:06:12.184] [DEBUG] default - server is ready.
+[2020-12-12T15:06:12.187] [INFO] default - [login]: options => [object Object]
+[2020-12-12T15:08:22.204] [DEBUG] default - server is ready.
+[2020-12-12T15:08:22.207] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:08:54.437] [DEBUG] default - server is ready.
+[2020-12-12T15:08:54.440] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:13:12.892] [DEBUG] default - server is ready.
+[2020-12-12T15:13:12.895] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:13:54.345] [DEBUG] default - server is ready.
+[2020-12-12T15:13:54.348] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:21:46.918] [DEBUG] default - server is ready.
+[2020-12-12T15:21:46.920] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:22:02.358] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T15:22:02.360] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T15:22:02.361] [INFO] default - [getFilePathFromPath]: fileList => ["text1.txt"]
+[2020-12-12T15:36:43.870] [DEBUG] default - ./test是一个文件false
+[2020-12-12T15:36:43.872] [DEBUG] default - ./test是一个文件夹true
+[2020-12-12T15:36:43.873] [INFO] default - [getFilePathFromPath]: fileList => []
+[2020-12-12T15:36:44.702] [DEBUG] default - server is ready.
+[2020-12-12T15:36:44.702] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:37:22.699] [DEBUG] default - ./upload_files是一个文件false
+[2020-12-12T15:37:22.700] [DEBUG] default - ./upload_files是一个文件夹true
+[2020-12-12T15:37:22.702] [INFO] default - [getFilePathFromPath]: fileList => ["text1.txt"]
+[2020-12-12T15:37:23.247] [DEBUG] default - server is ready.
+[2020-12-12T15:37:23.248] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:37:33.615] [INFO] default - [upload]: file => "text1.txt"
+[2020-12-12T15:37:43.916] [INFO] default - [list]: list => [{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-12T15:37:43.917] [DEBUG] default - close...
+[2020-12-12T15:38:31.250] [DEBUG] default - server is ready.
+[2020-12-12T15:38:31.253] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:39:52.817] [DEBUG] default - server is ready.
+[2020-12-12T15:39:52.820] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T15:40:12.365] [DEBUG] default - server is ready.
+[2020-12-12T15:40:12.369] [INFO] default - [login]: options => "[object Object]"
+[2020-12-12T16:03:24.187] [DEBUG] default - server is ready.
+[2020-12-12T16:04:36.798] [DEBUG] default - login...
+[2020-12-12T16:04:36.799] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:04:36.800] [INFO] default - [login]: port => undefined
+[2020-12-12T16:04:36.800] [INFO] default - [login]: user => undefined
+[2020-12-12T16:04:36.800] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:04:36.800] [INFO] default - [login]: sftp => false
+[2020-12-12T16:04:37.422] [DEBUG] default - server is ready.
+[2020-12-12T16:05:19.076] [DEBUG] default - login...
+[2020-12-12T16:05:19.077] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:05:19.077] [INFO] default - [login]: port => 21
+[2020-12-12T16:05:19.078] [INFO] default - [login]: user => undefined
+[2020-12-12T16:05:19.078] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:05:19.078] [INFO] default - [login]: sftp => false
+[2020-12-12T16:05:19.741] [DEBUG] default - server is ready.
+[2020-12-12T16:05:54.741] [DEBUG] default - login...
+[2020-12-12T16:05:54.743] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:05:54.743] [INFO] default - [login]: port => 21
+[2020-12-12T16:05:54.743] [INFO] default - [login]: user => undefined
+[2020-12-12T16:05:54.743] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:05:54.743] [INFO] default - [login]: sftp => false
+[2020-12-12T16:05:55.360] [DEBUG] default - server is ready.
+[2020-12-12T16:09:08.747] [DEBUG] default - login...
+[2020-12-12T16:09:08.749] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:09:08.749] [INFO] default - [login]: port => 21
+[2020-12-12T16:09:08.749] [INFO] default - [login]: user => undefined
+[2020-12-12T16:09:08.749] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:09:08.749] [INFO] default - [login]: sftp => false
+[2020-12-12T16:09:09.322] [DEBUG] default - server is ready.
+[2020-12-12T16:09:25.718] [DEBUG] default - login...
+[2020-12-12T16:09:25.719] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:09:25.720] [INFO] default - [login]: port => 22
+[2020-12-12T16:09:25.720] [INFO] default - [login]: user => undefined
+[2020-12-12T16:09:25.720] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:09:25.720] [INFO] default - [login]: sftp => true
+[2020-12-12T16:09:49.333] [DEBUG] default - login...
+[2020-12-12T16:09:49.335] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:09:49.335] [INFO] default - [login]: port => 22
+[2020-12-12T16:09:49.335] [INFO] default - [login]: user => undefined
+[2020-12-12T16:09:49.335] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:09:49.335] [INFO] default - [login]: sftp => true
+[2020-12-12T16:10:28.622] [DEBUG] default - login...
+[2020-12-12T16:10:28.624] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:10:28.624] [INFO] default - [login]: port => 22
+[2020-12-12T16:10:28.625] [INFO] default - [login]: user => undefined
+[2020-12-12T16:10:28.625] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:10:28.625] [INFO] default - [login]: sftp => true
+[2020-12-12T16:11:21.355] [DEBUG] default - login...
+[2020-12-12T16:11:21.356] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:11:21.357] [INFO] default - [login]: port => 22
+[2020-12-12T16:11:21.357] [INFO] default - [login]: user => undefined
+[2020-12-12T16:11:21.357] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:11:21.357] [INFO] default - [login]: sftp => true
+[2020-12-12T16:12:45.154] [DEBUG] default - login...
+[2020-12-12T16:12:45.156] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:12:45.156] [INFO] default - [login]: port => 21
+[2020-12-12T16:12:45.156] [INFO] default - [login]: user => undefined
+[2020-12-12T16:12:45.156] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:12:45.156] [INFO] default - [login]: sftp => false
+[2020-12-12T16:12:45.726] [DEBUG] default - server is ready.
+[2020-12-12T16:12:59.562] [DEBUG] default - login...
+[2020-12-12T16:12:59.567] [ERROR] default - TypeError: options is not iterable
+    at Object.loginInfo (/Users/jackson/Downloads/ftp-upload-master/log/index.js:37:21)
+    at Object.login (/Users/jackson/Downloads/ftp-upload-master/ftp/index.js:39:12)
+    at Command.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/cli/index.js:21:25)
+    at Command.listener [as _actionHandler] (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:426:31)
+    at Command._parseCommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:1002:14)
+    at Command._dispatchSubcommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:953:18)
+    at Command._parseCommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:970:12)
+    at Command.parse (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:801:10)
+    at Object.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/cli/index.js:58:9)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+[2020-12-12T16:13:18.192] [DEBUG] default - login...
+[2020-12-12T16:13:18.194] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:13:18.194] [INFO] default - [login]: port => 21
+[2020-12-12T16:13:18.194] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:13:18.194] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:13:18.195] [INFO] default - [login]: sftp => false
+[2020-12-12T16:13:18.651] [DEBUG] default - server is ready.
+[2020-12-12T16:14:10.109] [DEBUG] default - login...
+[2020-12-12T16:14:10.111] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:14:10.112] [INFO] default - [login]: port => 21
+[2020-12-12T16:14:10.112] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:14:10.112] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:14:10.112] [INFO] default - [login]: sftp => false
+[2020-12-12T16:14:10.765] [DEBUG] default - server is ready.
+[2020-12-12T16:14:14.924] [DEBUG] default - login...
+[2020-12-12T16:14:14.926] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:14:14.926] [INFO] default - [login]: port => 21
+[2020-12-12T16:14:14.926] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:14:14.926] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:14:14.926] [INFO] default - [login]: sftp => false
+[2020-12-12T16:14:15.522] [DEBUG] default - server is ready.
+[2020-12-12T16:14:39.172] [DEBUG] default - login...
+[2020-12-12T16:14:39.174] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:14:39.174] [INFO] default - [login]: port => 22
+[2020-12-12T16:14:39.174] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:14:39.174] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:14:39.174] [INFO] default - [login]: sftp => true
+[2020-12-12T16:15:07.412] [DEBUG] default - login...
+[2020-12-12T16:15:07.414] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:15:07.414] [INFO] default - [login]: port => 22
+[2020-12-12T16:15:07.414] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:15:07.414] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:15:07.414] [INFO] default - [login]: sftp => true
+[2020-12-12T16:16:19.714] [DEBUG] default - login options: 
+[2020-12-12T16:16:19.716] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:16:19.716] [INFO] default - [login]: port => 22
+[2020-12-12T16:16:19.716] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:16:19.716] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:16:19.716] [INFO] default - [login]: sftp => true
+[2020-12-12T16:19:53.930] [DEBUG] default - login options: 
+[2020-12-12T16:19:53.932] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:19:53.932] [INFO] default - [login]: port => 22
+[2020-12-12T16:19:53.932] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:19:53.932] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:19:53.932] [INFO] default - [login]: sftp => true
+[2020-12-12T16:20:20.461] [DEBUG] default - login options: 
+[2020-12-12T16:20:20.462] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:20:20.462] [INFO] default - [login]: port => 22
+[2020-12-12T16:20:20.462] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:20:20.462] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:20:20.462] [INFO] default - [login]: sftp => true
+[2020-12-12T16:20:59.710] [DEBUG] default - login options: 
+[2020-12-12T16:20:59.711] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:20:59.711] [INFO] default - [login]: port => 22
+[2020-12-12T16:20:59.711] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:20:59.712] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:20:59.712] [INFO] default - [login]: sftp => true
+[2020-12-12T16:21:25.383] [DEBUG] default - login options: 
+[2020-12-12T16:21:25.384] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:21:25.384] [INFO] default - [login]: port => 21
+[2020-12-12T16:21:25.384] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:21:25.385] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:21:25.385] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:21:51.527] [DEBUG] default - login options: 
+[2020-12-12T16:21:51.529] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:21:51.529] [INFO] default - [login]: port => 21
+[2020-12-12T16:21:51.529] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:21:51.529] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:21:51.529] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:22:14.419] [DEBUG] default - login options: 
+[2020-12-12T16:22:14.420] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:22:14.420] [INFO] default - [login]: port => 21
+[2020-12-12T16:22:14.420] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:22:14.420] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:22:14.420] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:22:14.952] [DEBUG] default - server is ready.
+[2020-12-12T16:22:31.730] [DEBUG] default - login options: 
+[2020-12-12T16:22:31.732] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:22:31.732] [INFO] default - [login]: port => 21
+[2020-12-12T16:22:31.732] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:22:31.732] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:22:31.732] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:25:25.815] [DEBUG] default - login options: 
+[2020-12-12T16:25:25.816] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:25:25.817] [INFO] default - [login]: port => 21
+[2020-12-12T16:25:25.817] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:25:25.817] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:25:25.817] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:25:26.089] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:27:03.419] [DEBUG] default - login options: 
+[2020-12-12T16:27:03.421] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:27:03.421] [INFO] default - [login]: port => 21
+[2020-12-12T16:27:03.421] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:27:03.421] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:27:03.421] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:27:03.787] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:27:53.818] [DEBUG] default - login options: 
+[2020-12-12T16:27:53.820] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:27:53.820] [INFO] default - [login]: port => 21
+[2020-12-12T16:27:53.820] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:27:53.820] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:27:53.820] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:27:53.826] [ERROR] default - TypeError: Cannot read property 'on' of undefined
+    at Object.login (/Users/jackson/Downloads/ftp-upload-master/ftp/index.js:40:28)
+    at Command.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/cli/index.js:21:25)
+    at Command.listener [as _actionHandler] (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:426:31)
+    at Command._parseCommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:1002:14)
+    at Command._dispatchSubcommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:953:18)
+    at Command._parseCommand (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:970:12)
+    at Command.parse (/Users/jackson/Downloads/ftp-upload-master/node_modules/commander/index.js:801:10)
+    at Object.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/cli/index.js:58:9)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+[2020-12-12T16:27:54.225] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:29:10.443] [DEBUG] default - login options: 
+[2020-12-12T16:29:10.445] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:29:10.446] [INFO] default - [login]: port => 21
+[2020-12-12T16:29:10.446] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:29:10.446] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:29:10.446] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:29:10.958] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:29:51.002] [DEBUG] default - login options: 
+[2020-12-12T16:29:51.004] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:29:51.004] [INFO] default - [login]: port => 21
+[2020-12-12T16:29:51.004] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:29:51.005] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:29:51.005] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:29:51.397] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:30:31.360] [DEBUG] default - login options: 
+[2020-12-12T16:30:31.362] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:30:31.362] [INFO] default - [login]: port => 21
+[2020-12-12T16:30:31.362] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:30:31.362] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:30:31.362] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:31:06.705] [DEBUG] default - login options: 
+[2020-12-12T16:31:06.706] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:31:06.706] [INFO] default - [login]: port => 21
+[2020-12-12T16:31:06.706] [INFO] default - [login]: user => "ft"
+[2020-12-12T16:31:06.707] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:31:06.707] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:31:07.090] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:31:20.212] [DEBUG] default - login options: 
+[2020-12-12T16:31:20.214] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:31:20.214] [INFO] default - [login]: port => 22
+[2020-12-12T16:31:20.214] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:31:20.214] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:31:20.214] [INFO] default - [login]: sftp => true
+[2020-12-12T16:32:11.343] [DEBUG] default - login options: 
+[2020-12-12T16:32:11.345] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:32:11.345] [INFO] default - [login]: port => 22
+[2020-12-12T16:32:11.345] [INFO] default - [login]: user => "sftp"
+[2020-12-12T16:32:11.345] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:32:11.345] [INFO] default - [login]: sftp => true
+[2020-12-12T16:32:16.554] [DEBUG] default - login options: 
+[2020-12-12T16:32:16.555] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:32:16.556] [INFO] default - [login]: port => 21
+[2020-12-12T16:32:16.556] [INFO] default - [login]: user => "fp"
+[2020-12-12T16:32:16.556] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:32:16.556] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:32:16.941] [ERROR] default - Error: User cannot log in.
+    at makeError (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:1067:13)
+    at Parser.<anonymous> (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:113:25)
+    at Parser.emit (events.js:315:20)
+    at Parser._write (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/parser.js:59:10)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Parser.Writable.write (_stream_writable.js:318:11)
+    at Socket.ondata (/Users/jackson/Downloads/ftp-upload-master/node_modules/ftp/lib/connection.js:273:20)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12) {
+  code: 530
+}
+[2020-12-12T16:33:19.303] [DEBUG] default - login options: 
+[2020-12-12T16:33:19.305] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:33:19.305] [INFO] default - [login]: port => 21
+[2020-12-12T16:33:19.305] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:33:19.305] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:33:19.305] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:33:19.978] [DEBUG] default - server is ready.
+[2020-12-12T16:38:00.107] [DEBUG] default - login options: 
+[2020-12-12T16:38:00.109] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:38:00.109] [INFO] default - [login]: port => 21
+[2020-12-12T16:38:00.109] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:38:00.109] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:38:00.881] [DEBUG] default - server is ready.
+[2020-12-12T16:38:11.127] [INFO] default - [list]: list => [{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-12T16:38:36.357] [DEBUG] default - login options: 
+[2020-12-12T16:38:36.359] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:38:36.359] [INFO] default - [login]: port => 21
+[2020-12-12T16:38:36.359] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:38:36.359] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:38:36.914] [DEBUG] default - server is ready.
+[2020-12-12T16:39:11.287] [DEBUG] default - login options: 
+[2020-12-12T16:39:11.289] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:39:11.289] [INFO] default - [login]: port => 21
+[2020-12-12T16:39:11.289] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:39:11.289] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:39:11.876] [DEBUG] default - server is ready.
+[2020-12-12T16:39:22.183] [INFO] default - [list]: list => [{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-12T16:42:17.581] [DEBUG] default - login options: 
+[2020-12-12T16:42:17.583] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:42:17.583] [INFO] default - [login]: port => 21
+[2020-12-12T16:42:17.583] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:42:17.583] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:42:18.130] [DEBUG] default - server is ready.
+[2020-12-12T16:42:28.426] [DEBUG] default - file list: 
+[2020-12-12T16:42:28.426] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:42:28.426] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:42:28.426] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:42:28.427] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:42:28.427] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:43:58.665] [DEBUG] default - login options: 
+[2020-12-12T16:43:58.667] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:43:58.667] [INFO] default - [login]: port => 21
+[2020-12-12T16:43:58.667] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:43:58.667] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:43:58.667] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:43:59.162] [DEBUG] default - server is ready.
+[2020-12-12T16:44:13.144] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T16:44:13.146] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T16:44:13.147] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212.txt"]
+[2020-12-12T16:44:19.539] [DEBUG] default - login options: 
+[2020-12-12T16:44:19.540] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:44:19.540] [INFO] default - [login]: port => 21
+[2020-12-12T16:44:19.541] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:44:19.541] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:44:20.266] [DEBUG] default - server is ready.
+[2020-12-12T16:44:30.538] [DEBUG] default - file list on server: 
+[2020-12-12T16:44:30.538] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:44:30.538] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:44:30.538] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:44:30.538] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:44:30.538] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:45:22.517] [DEBUG] default - login options: 
+[2020-12-12T16:45:22.519] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:45:22.519] [INFO] default - [login]: port => 21
+[2020-12-12T16:45:22.519] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:45:22.520] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:45:22.525] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T16:45:22.525] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T16:45:22.525] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212.txt"]
+[2020-12-12T16:45:23.060] [DEBUG] default - server is ready.
+[2020-12-12T16:45:33.470] [INFO] default - [upload]: file => "test20201212.txt"
+[2020-12-12T16:45:43.753] [DEBUG] default - file list on server: 
+[2020-12-12T16:45:43.753] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:45:43.753] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:45:43.753] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:45:43.754] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T16:45:43.754] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:45:43.754] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:46:31.613] [DEBUG] default - login options: 
+[2020-12-12T16:46:31.614] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:46:31.615] [INFO] default - [login]: port => 21
+[2020-12-12T16:46:31.615] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:46:31.615] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:46:31.615] [INFO] default - [login]: sftp => undefined
+[2020-12-12T16:46:32.235] [DEBUG] default - server is ready.
+[2020-12-12T16:46:43.867] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T16:46:43.868] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T16:46:43.869] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt"]
+[2020-12-12T16:47:44.964] [DEBUG] default - login options: 
+[2020-12-12T16:47:44.966] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:47:44.966] [INFO] default - [login]: port => 21
+[2020-12-12T16:47:44.966] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:47:44.966] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:47:44.971] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T16:47:44.971] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T16:47:44.971] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T16:47:45.709] [DEBUG] default - server is ready.
+[2020-12-12T16:47:56.040] [INFO] default - [upload]: file => "test123.txt"
+[2020-12-12T16:48:06.424] [INFO] default - [upload]: file => "test502.txt"
+[2020-12-12T16:48:16.650] [DEBUG] default - file list on server: 
+[2020-12-12T16:48:16.650] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:48:16.650] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T08:47:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T08:48:00.000Z"}
+[2020-12-12T16:48:16.651] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:53:35.799] [DEBUG] default - login options: 
+[2020-12-12T16:53:35.801] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:53:35.801] [INFO] default - [login]: port => 21
+[2020-12-12T16:53:35.801] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:53:35.801] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:53:36.408] [DEBUG] default - server is ready.
+[2020-12-12T16:53:46.647] [DEBUG] default - file list on server: 
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T08:47:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T08:48:00.000Z"}
+[2020-12-12T16:53:46.647] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:54:54.548] [DEBUG] default - login options: 
+[2020-12-12T16:54:54.549] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:54:54.550] [INFO] default - [login]: port => 21
+[2020-12-12T16:54:54.550] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:54:54.550] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:54:55.119] [DEBUG] default - server is ready.
+[2020-12-12T16:55:05.374] [DEBUG] default - file list on server: 
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T08:47:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:55:05.374] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T08:48:00.000Z"}
+[2020-12-12T16:55:05.375] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:55:05.375] [DEBUG] default - close connection...
+[2020-12-12T16:56:06.292] [DEBUG] default - login options: 
+[2020-12-12T16:56:06.294] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T16:56:06.294] [INFO] default - [login]: port => 21
+[2020-12-12T16:56:06.294] [INFO] default - [login]: user => "ftp"
+[2020-12-12T16:56:06.294] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T16:56:06.928] [DEBUG] default - server is ready.
+[2020-12-12T16:56:17.211] [DEBUG] default - file list on server: 
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T08:47:00.000Z"}
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T16:56:17.211] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T16:56:17.212] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T08:48:00.000Z"}
+[2020-12-12T16:56:17.212] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T16:56:17.212] [DEBUG] default - close connection...
+[2020-12-12T17:21:14.746] [DEBUG] default - login options: 
+[2020-12-12T17:21:14.748] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:21:14.748] [INFO] default - [login]: port => 21
+[2020-12-12T17:21:14.748] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:21:14.748] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:21:14.753] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:21:14.753] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:21:14.753] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:21:14.753] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:21:15.576] [DEBUG] default - server is ready.
+[2020-12-12T17:21:25.928] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:21:25.929] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:21:36.249] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:21:49.827] [DEBUG] default - login options: 
+[2020-12-12T17:21:49.828] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:21:49.828] [INFO] default - [login]: port => 21
+[2020-12-12T17:21:49.828] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:21:49.829] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:21:49.835] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:21:49.836] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:21:49.838] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:21:49.838] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:21:49.838] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:21:50.411] [DEBUG] default - server is ready.
+[2020-12-12T17:22:01.129] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:22:11.448] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:24:21.538] [DEBUG] default - login options: 
+[2020-12-12T17:24:21.540] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:24:21.540] [INFO] default - [login]: port => 21
+[2020-12-12T17:24:21.540] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:24:21.540] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:24:21.545] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:24:21.545] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:24:21.546] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:24:21.546] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:24:21.546] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:24:22.152] [DEBUG] default - server is ready.
+[2020-12-12T17:24:28.359] [DEBUG] default - login options: 
+[2020-12-12T17:24:28.361] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:24:28.361] [INFO] default - [login]: port => 21
+[2020-12-12T17:24:28.361] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:24:28.361] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:24:28.367] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:24:28.367] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:24:28.367] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:24:28.368] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:24:28.368] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:24:29.033] [DEBUG] default - server is ready.
+[2020-12-12T17:24:39.351] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:24:49.665] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:25:53.285] [DEBUG] default - login options: 
+[2020-12-12T17:25:53.287] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:25:53.287] [INFO] default - [login]: port => 21
+[2020-12-12T17:25:53.287] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:25:53.287] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:25:53.294] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:25:53.294] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:25:53.296] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:25:53.296] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:25:53.296] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:25:54.166] [DEBUG] default - server is ready.
+[2020-12-12T17:26:04.531] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:26:14.921] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:26:18.032] [DEBUG] default - login options: 
+[2020-12-12T17:26:18.033] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:26:18.034] [INFO] default - [login]: port => 21
+[2020-12-12T17:26:18.034] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:26:18.034] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:26:18.038] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:26:18.039] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:26:18.039] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:26:18.039] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:26:18.039] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:26:18.561] [DEBUG] default - server is ready.
+[2020-12-12T17:26:28.928] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:26:39.286] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:30:19.149] [DEBUG] default - login options: 
+[2020-12-12T17:30:19.151] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:30:19.151] [INFO] default - [login]: port => 21
+[2020-12-12T17:30:19.151] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:30:19.151] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:30:19.709] [DEBUG] default - server is ready.
+[2020-12-12T17:30:19.712] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:30:19.712] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:30:19.712] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:30:19.713] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:30:19.713] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:30:30.078] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:30:40.924] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:45:48.024] [DEBUG] default - login options: 
+[2020-12-12T17:45:48.026] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:45:48.026] [INFO] default - [login]: port => 21
+[2020-12-12T17:45:48.026] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:45:48.026] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:45:48.570] [DEBUG] default - server is ready.
+[2020-12-12T17:45:48.575] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:45:48.575] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:45:48.576] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:45:48.577] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:45:48.577] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:45:58.980] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:46:09.438] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:46:27.979] [DEBUG] default - login options: 
+[2020-12-12T17:46:27.981] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:46:27.981] [INFO] default - [login]: port => 21
+[2020-12-12T17:46:27.981] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:46:27.981] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:46:28.601] [DEBUG] default - server is ready.
+[2020-12-12T17:46:28.606] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:46:28.606] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:46:28.607] [INFO] default - [getFilePathFromPath]: fileList => ["test123.txt","test502.txt"]
+[2020-12-12T17:46:28.607] [INFO] default - [start-upload]: file => "test123.txt"
+[2020-12-12T17:46:28.608] [INFO] default - [start-upload]: file => "test502.txt"
+[2020-12-12T17:46:38.971] [INFO] default - [end-upload]: file => "test123.txt"
+[2020-12-12T17:46:49.920] [INFO] default - [end-upload]: file => "test502.txt"
+[2020-12-12T17:47:38.164] [DEBUG] default - login options: 
+[2020-12-12T17:47:38.166] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:47:38.166] [INFO] default - [login]: port => 21
+[2020-12-12T17:47:38.166] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:47:38.166] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:47:38.712] [DEBUG] default - server is ready.
+[2020-12-12T17:47:38.717] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:47:38.717] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:47:38.718] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T17:47:38.718] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:47:38.719] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T17:47:49.032] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:47:59.392] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T17:49:57.795] [DEBUG] default - login options: 
+[2020-12-12T17:49:57.797] [DEBUG] default - login options: 
+[2020-12-12T17:49:57.797] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:49:57.797] [INFO] default - [login]: port => 21
+[2020-12-12T17:49:57.797] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:49:57.797] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:49:58.475] [DEBUG] default - server is ready.
+[2020-12-12T17:49:58.480] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:49:58.480] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:49:58.480] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T17:49:58.480] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:49:58.481] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T17:50:09.077] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:50:15.420] [DEBUG] default - login options: 
+[2020-12-12T17:50:15.422] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:50:15.422] [INFO] default - [login]: port => 21
+[2020-12-12T17:50:15.422] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:50:15.422] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:50:15.422] [INFO] default - [login]: sftp => undefined
+[2020-12-12T17:50:16.038] [DEBUG] default - server is ready.
+[2020-12-12T17:50:16.039] [DEBUG] default - close connection.
+[2020-12-12T17:50:22.078] [DEBUG] default - login options: 
+[2020-12-12T17:50:22.080] [DEBUG] default - login options: 
+[2020-12-12T17:50:22.080] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:50:22.080] [INFO] default - [login]: port => 21
+[2020-12-12T17:50:22.080] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:50:22.080] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:50:22.795] [DEBUG] default - server is ready.
+[2020-12-12T17:50:22.799] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:50:22.800] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:50:22.800] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T17:50:22.800] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:50:22.801] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T17:50:33.118] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:50:43.718] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T17:51:35.114] [DEBUG] default - xxxx
+[2020-12-12T17:51:35.116] [DEBUG] default - login options: 
+[2020-12-12T17:51:35.116] [DEBUG] default - login options: 
+[2020-12-12T17:51:35.116] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:51:35.117] [INFO] default - [login]: port => 21
+[2020-12-12T17:51:35.117] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:51:35.117] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:51:35.638] [DEBUG] default - server is ready.
+[2020-12-12T17:51:35.640] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:51:35.640] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:51:35.641] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T17:51:35.641] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:51:35.641] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T17:51:46.202] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:51:56.573] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T17:52:43.196] [DEBUG] default - login options: 
+[2020-12-12T17:52:43.197] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:52:43.198] [INFO] default - [login]: port => 21
+[2020-12-12T17:52:43.198] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:52:43.198] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:52:43.866] [DEBUG] default - server is ready.
+[2020-12-12T17:52:43.871] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T17:52:43.871] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T17:52:43.871] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T17:52:43.872] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:52:43.872] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T17:52:54.550] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T17:53:04.879] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T17:53:28.110] [DEBUG] default - login options: 
+[2020-12-12T17:53:28.112] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T17:53:28.112] [INFO] default - [login]: port => 21
+[2020-12-12T17:53:28.112] [INFO] default - [login]: user => "ftp"
+[2020-12-12T17:53:28.112] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T17:53:28.903] [DEBUG] default - server is ready.
+[2020-12-12T17:53:39.183] [DEBUG] default - file list on server: 
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-12T09:52:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-12T09:53:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-12T17:53:39.184] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-12T17:53:39.185] [DEBUG] default - close connection.
+[2020-12-12T17:55:07.843] [ERROR] default - Error: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27) {
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[2020-12-12T18:02:29.759] [DEBUG] default - login options: 
+[2020-12-12T18:02:29.761] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T18:02:29.761] [INFO] default - [login]: port => 21
+[2020-12-12T18:02:29.761] [INFO] default - [login]: user => "ftp"
+[2020-12-12T18:02:29.761] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T18:02:29.766] [ERROR] default - Error: connect ENETUNREACH 47.107.157.97:21 - Local (0.0.0.0:60702)
+    at internalConnect (net.js:923:16)
+    at defaultTriggerAsyncIdScope (internal/async_hooks.js:351:12)
+    at net.js:1011:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  errno: 'ENETUNREACH',
+  code: 'ENETUNREACH',
+  syscall: 'connect',
+  address: '47.107.157.97',
+  port: 21
+}
+[2020-12-12T18:05:10.945] [DEBUG] default - login options: 
+[2020-12-12T18:05:10.946] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T18:05:10.946] [INFO] default - [login]: port => 21
+[2020-12-12T18:05:10.946] [INFO] default - [login]: user => "ftp"
+[2020-12-12T18:05:10.947] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T18:05:11.498] [DEBUG] default - server is ready.
+[2020-12-12T18:05:11.500] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T18:05:11.500] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T18:05:11.501] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T18:05:11.501] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:05:11.501] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T18:05:21.855] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:05:32.218] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T18:07:50.146] [DEBUG] default - login options: 
+[2020-12-12T18:07:50.148] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T18:07:50.148] [INFO] default - [login]: port => 21
+[2020-12-12T18:07:50.148] [INFO] default - [login]: user => "ftp"
+[2020-12-12T18:07:50.148] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T18:07:50.681] [DEBUG] default - server is ready.
+[2020-12-12T18:07:50.686] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T18:07:50.686] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T18:07:50.686] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T18:07:50.686] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:07:50.687] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T18:08:01.015] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:08:11.434] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T18:09:03.601] [DEBUG] default - login options: 
+[2020-12-12T18:09:03.602] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T18:09:03.602] [INFO] default - [login]: port => 21
+[2020-12-12T18:09:03.602] [INFO] default - [login]: user => "ftp"
+[2020-12-12T18:09:03.602] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T18:09:04.118] [DEBUG] default - server is ready.
+[2020-12-12T18:09:04.121] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T18:09:04.121] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T18:09:04.121] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T18:09:04.121] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:09:04.121] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T18:09:14.759] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:09:25.087] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T18:10:29.063] [DEBUG] default - login options: 
+[2020-12-12T18:10:29.065] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-12T18:10:29.065] [INFO] default - [login]: port => 21
+[2020-12-12T18:10:29.065] [INFO] default - [login]: user => "ftp"
+[2020-12-12T18:10:29.065] [INFO] default - [login]: password => "Admin@123"
+[2020-12-12T18:10:29.647] [DEBUG] default - server is ready.
+[2020-12-12T18:10:29.652] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-12T18:10:29.653] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-12T18:10:29.653] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-12T18:10:29.653] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:10:29.654] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-12T18:10:40.281] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-12T18:10:50.600] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-12T18:15:34.523] [ERROR] default - Error: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27) {
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
