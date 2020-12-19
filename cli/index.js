@@ -26,7 +26,11 @@ program
             password: options.password,
             sftp: options.sftp
         };
-        await MyFtp.login(client, loginOptions);
+        try {
+            await MyFtp.login(client, loginOptions);
+        } catch (err) {
+            logger.error(err);
+        }
         await MyFtp.close(client);
 
     });
@@ -37,22 +41,29 @@ program
     .requiredOption('-p, --path [path]', '上传文件路径', './upload_files/')
     .requiredOption('-d, --destPath [destPath]', '服务器路径', '/yjc/')
     .action(async(options) => {
-
-        await MyFtp.login(client, loginOptions);
-        await MyFtp.upload(client, options.path, options.destPath, isSftp);
-        await MyFtp.list(client, options.destPath);
+        try {
+            await MyFtp.login(client, loginOptions);
+            await MyFtp.upload(client, options.path, options.destPath, isSftp);
+            await MyFtp.list(client, options.destPath);
+        } catch (err) {
+            logger.error(err);
+        }
         await MyFtp.close(client);
+
     });
 
 
 program
     .command('list')
     .description('查看文件列表')
-    .requiredOption('-d, --destPath [destPath]', '服务器路径', '/yjc/')
+    .option('-d, --destPath [destPath]', '服务器路径', '/')
     .action(async(options) => {
-
-        await MyFtp.login(client, loginOptions);
-        await MyFtp.list(client, options.destPath);
+        try {
+            await MyFtp.login(client, loginOptions);
+            await MyFtp.list(client, options.destPath);
+        } catch (err) {
+            logger.error(err);
+        }
         await MyFtp.close(client);
 
     });
@@ -61,8 +72,14 @@ program
     .command('close')
     .description('关闭服务器的连接')
     .action(async() => {
-        await MyFtp.login(client, loginOptions);
+        try {
+            await MyFtp.login(client, loginOptions);
+        } catch (err) {
+            logger.error(err);
+        }
         await MyFtp.close(client);
+
+
     });
 
 program.parse(process.argv);

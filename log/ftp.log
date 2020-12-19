@@ -801,3 +801,1883 @@
   code: 'ETIMEDOUT',
   syscall: 'read'
 }
+[2020-12-19T11:10:09.014] [DEBUG] default - login options: 
+[2020-12-19T11:10:09.015] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:10:09.015] [INFO] default - [login]: port => 21
+[2020-12-19T11:10:09.016] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:10:09.016] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:10:09.087] [DEBUG] default - server is ready.
+[2020-12-19T11:10:09.093] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:10:09.093] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:10:09.094] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:10:09.094] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:10:09.094] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T11:10:09.137] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:10:09.187] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-19T11:26:44.747] [ERROR] default - Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27) {
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[2020-12-19T11:37:52.010] [DEBUG] default - login options: 
+[2020-12-19T11:37:52.011] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:37:52.011] [INFO] default - [login]: port => 21
+[2020-12-19T11:37:52.012] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:37:52.012] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:37:52.091] [DEBUG] default - server is ready.
+[2020-12-19T11:37:52.176] [DEBUG] default - file list on server: 
+[2020-12-19T11:37:52.176] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T03:10:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T03:10:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T11:37:52.177] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T11:37:52.178] [DEBUG] default - close connection.
+[2020-12-19T11:40:48.878] [DEBUG] default - login options: 
+[2020-12-19T11:40:48.879] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:40:48.879] [INFO] default - [login]: port => 21
+[2020-12-19T11:40:48.879] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:40:48.879] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:40:48.941] [DEBUG] default - server is ready.
+[2020-12-19T11:40:48.981] [DEBUG] default - file list on server: 
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T03:10:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T11:40:48.981] [INFO] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T03:10:00.000Z"}
+[2020-12-19T11:40:48.982] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T11:40:48.982] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T11:40:48.982] [DEBUG] default - close connection.
+[2020-12-19T11:40:52.429] [DEBUG] default - login options: 
+[2020-12-19T11:40:52.431] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:40:52.431] [INFO] default - [login]: port => 21
+[2020-12-19T11:40:52.431] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:40:52.431] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:40:52.520] [DEBUG] default - server is ready.
+[2020-12-19T11:40:52.526] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:40:52.526] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:40:52.526] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:40:52.527] [INFO] default - [parallelUpload]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:40:52.527] [INFO] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T11:40:52.527] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:40:52.527] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T11:40:52.626] [INFO] default - [end-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:40:52.803] [INFO] default - [end-upload]: file => "test502-1.txt"
+[2020-12-19T11:41:22.215] [ERROR] default - Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27) {
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[2020-12-19T11:44:34.226] [DEBUG] default - login options: 
+[2020-12-19T11:44:34.227] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:44:34.227] [INFO] default - [login]: port => 21
+[2020-12-19T11:44:34.227] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:44:34.227] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:44:34.296] [DEBUG] default - server is ready.
+[2020-12-19T11:44:34.301] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:44:34.302] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:44:34.302] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:44:34.302] [INFO] default - [parallelUpload]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:44:34.302] [INFO] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T11:44:34.303] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:44:34.303] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T11:44:34.348] [INFO] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T11:44:34.386] [INFO] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T11:46:58.554] [DEBUG] default - login options: 
+[2020-12-19T11:46:58.556] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:46:58.556] [INFO] default - [login]: port => 21
+[2020-12-19T11:46:58.556] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:46:58.556] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:46:58.618] [DEBUG] default - server is ready.
+[2020-12-19T11:46:58.618] [DEBUG] default - start upload fn
+[2020-12-19T11:46:58.621] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:46:58.621] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:46:58.621] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:46:58.621] [INFO] default - [parallelUpload]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:46:58.621] [INFO] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T11:46:58.621] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:46:58.622] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T11:46:58.663] [INFO] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T11:46:58.706] [INFO] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T11:46:58.707] [INFO] default - [upload-success]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:47:40.518] [DEBUG] default - login options: 
+[2020-12-19T11:47:40.519] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:47:40.520] [INFO] default - [login]: port => 21
+[2020-12-19T11:47:40.520] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:47:40.520] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:47:40.599] [DEBUG] default - server is ready.
+[2020-12-19T11:47:40.599] [DEBUG] default - start upload fn
+[2020-12-19T11:47:40.604] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:47:40.604] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:47:40.605] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:47:40.605] [INFO] default - [parallelUpload]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:47:40.605] [INFO] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T11:47:40.605] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T11:47:40.606] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T11:47:40.651] [INFO] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T11:47:40.694] [INFO] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T11:47:40.695] [INFO] default - [upload-success]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:51:14.609] [DEBUG] default - login options: 
+[2020-12-19T11:51:14.610] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T11:51:14.610] [INFO] default - [login]: port => 21
+[2020-12-19T11:51:14.611] [INFO] default - [login]: user => "ftp"
+[2020-12-19T11:51:14.611] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T11:51:14.676] [DEBUG] default - server is ready.
+[2020-12-19T11:51:14.677] [DEBUG] default - start upload fn
+[2020-12-19T11:51:14.682] [DEBUG] default - ./upload_files/是一个文件false
+[2020-12-19T11:51:14.682] [DEBUG] default - ./upload_files/是一个文件夹true
+[2020-12-19T11:51:14.683] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T11:53:11.728] [ERROR] default - Error: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27) {
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[2020-12-19T14:04:04.981] [DEBUG] default - login fn start...
+[2020-12-19T14:04:04.983] [DEBUG] default - login options: 
+[2020-12-19T14:04:04.983] [INFO] default - [login]: host => "47.107.157.97"
+[2020-12-19T14:04:04.983] [INFO] default - [login]: port => 21
+[2020-12-19T14:04:04.984] [INFO] default - [login]: user => "ftp"
+[2020-12-19T14:04:04.984] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T14:04:05.049] [DEBUG] default - server is ready.
+[2020-12-19T14:04:05.049] [DEBUG] default - start upload fn
+[2020-12-19T14:04:05.049] [DEBUG] default - start getfileFromPath..
+[2020-12-19T14:04:05.052] [DEBUG] default - ./upload_files/is a filefalse
+[2020-12-19T14:04:05.052] [DEBUG] default - ./upload_files/is a dirtrue
+[2020-12-19T14:04:05.054] [INFO] default - [getFilePathFromPath]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T14:04:05.054] [INFO] default - [parallelUpload]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T14:04:05.054] [INFO] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T14:04:05.054] [INFO] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T14:04:05.055] [INFO] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T14:04:05.106] [INFO] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T14:04:05.141] [INFO] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T14:04:05.142] [INFO] default - [upload-success]: fileList => ["test20201212-1.txt","test502-1.txt"]
+[2020-12-19T14:04:05.142] [DEBUG] default - start list fn
+[2020-12-19T14:04:05.185] [DEBUG] default - file list on server: 
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T06:04:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T14:04:05.185] [INFO] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T14:04:05.186] [INFO] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T06:04:00.000Z"}
+[2020-12-19T14:04:05.186] [INFO] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T14:04:05.186] [INFO] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T14:04:05.186] [DEBUG] default - close connection.
+[2020-12-19T14:07:42.129] [DEBUG] default - login fn start...
+[2020-12-19T14:07:42.131] [ERROR] default - loginOptions error: 
+[2020-12-19T14:07:42.131] [ERROR] default - loginOptions error: 
+[2020-12-19T14:12:05.152] [DEBUG] default - login fn start...
+[2020-12-19T14:12:05.154] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:13:13.577] [DEBUG] default - login fn start...
+[2020-12-19T14:13:13.579] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:13:13.579] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:15:55.365] [DEBUG] default - login fn start...
+[2020-12-19T14:15:55.366] [INFO] default - [validateLoginOptions]: key => undefined
+[2020-12-19T14:15:55.367] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:15:55.367] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:16:30.763] [DEBUG] default - login fn start...
+[2020-12-19T14:16:30.765] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:16:30.765] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:16:30.765] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:17:58.193] [DEBUG] default - login fn start...
+[2020-12-19T14:17:58.196] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:17:58.196] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:17:58.197] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.324] [DEBUG] default - login fn start...
+[2020-12-19T14:18:14.325] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:18:14.325] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:18:14.325] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:18:14.326] [ERROR] default - loginOptions error: 
+[2020-12-19T14:18:14.326] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:18:14.327] [ERROR] default - loginOptions error: 
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:18:14.327] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:19:39.703] [DEBUG] default - login fn start...
+[2020-12-19T14:19:39.704] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:19:39.704] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:19:39.705] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:19:39.705] [ERROR] default - loginOptions error: 
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:19:39.706] [ERROR] default - loginOptions error: 
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: key => {}
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:19:39.706] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:23:56.482] [DEBUG] default - login fn start...
+[2020-12-19T14:23:56.484] [INFO] default - [validateLoginOptions]: common => undefined
+[2020-12-19T14:23:56.484] [INFO] default - [validateLoginOptions]: common => {}
+[2020-12-19T14:23:56.484] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:23:56.484] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: common => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: common => {}
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: common => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: common => {}
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:23:56.485] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:23:56.486] [ERROR] default - loginOptions error: 
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: common => undefined
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: common => {}
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:23:56.486] [ERROR] default - loginOptions error: 
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: common => undefined
+[2020-12-19T14:23:56.486] [INFO] default - [validateLoginOptions]: common => {}
+[2020-12-19T14:23:56.492] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:23:56.492] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:23:56.492] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:24:42.592] [DEBUG] default - login fn start...
+[2020-12-19T14:24:42.595] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:24:42.595] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:24:42.595] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:24:42.596] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:24:42.597] [ERROR] default - loginOptions error: 
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:24:42.597] [ERROR] default - loginOptions error: 
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:24:42.597] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:25:48.988] [DEBUG] default - login fn start...
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:25:48.990] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:25:48.991] [ERROR] default - loginOptions error: 
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:25:48.991] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:25:48.992] [ERROR] default - loginOptions error: 
+[2020-12-19T14:25:48.992] [INFO] default - [validateLoginOptions]: validate => {}
+[2020-12-19T14:25:48.992] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:25:48.992] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:25:48.992] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:26:40.444] [DEBUG] default - login fn start...
+[2020-12-19T14:26:40.445] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:26:40.445] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:26:40.446] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:26:40.447] [ERROR] default - loginOptions error: 
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:26:40.447] [ERROR] default - loginOptions error: 
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:26:40.447] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:27:17.681] [DEBUG] default - login fn start...
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:27:17.683] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:27:17.684] [ERROR] default - loginOptions error: 
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:27:17.684] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:27:17.685] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:27:17.685] [ERROR] default - loginOptions error: 
+[2020-12-19T14:27:17.685] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:27:17.685] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:27:17.691] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:27:17.691] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:27:17.691] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:28:15.519] [DEBUG] default - login fn start...
+[2020-12-19T14:28:15.521] [INFO] default - [login]: validateloginoptions => {}
+[2020-12-19T14:28:15.521] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:28:15.521] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:28:15.522] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:28:15.523] [ERROR] default - loginOptions error: 
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:28:15.523] [ERROR] default - loginOptions error: 
+[2020-12-19T14:28:15.523] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:28:15.529] [INFO] default - [validateLoginOptions]: validate => 1
+[2020-12-19T14:28:15.529] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:28:15.529] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:28:15.529] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:29:15.129] [DEBUG] default - login fn start...
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: validate => false
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: key => "host"
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: option[key] => "xxx"
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:29:15.131] [INFO] default - [validateLoginOptions]: validate => false
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: key => "port"
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: validate => false
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: key => "user"
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:29:15.132] [ERROR] default - loginOptions error: 
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: validate => false
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: key => "password"
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:29:15.132] [INFO] default - [validateLoginOptions]: option[key] => "Admin@123"
+[2020-12-19T14:29:15.133] [ERROR] default - loginOptions error: 
+[2020-12-19T14:29:15.133] [INFO] default - [validateLoginOptions]: validate => {"a":1}
+[2020-12-19T14:29:15.139] [INFO] default - [validateLoginOptions]: validate => false
+[2020-12-19T14:29:15.139] [INFO] default - [validateLoginOptions]: key => "sftp"
+[2020-12-19T14:29:15.139] [INFO] default - [validateLoginOptions]: regMap[key] => undefined
+[2020-12-19T14:29:15.139] [INFO] default - [validateLoginOptions]: option[key] => undefined
+[2020-12-19T14:34:43.327] [DEBUG] default - login fn start...
+[2020-12-19T14:34:43.329] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:34:43.329] [ERROR] default - loginOptions error: port is error!
+[2020-12-19T14:34:43.329] [DEBUG] default - login options: 
+[2020-12-19T14:34:43.330] [INFO] default - [login]: host => "xxx"
+[2020-12-19T14:34:43.330] [INFO] default - [login]: port => 21
+[2020-12-19T14:34:43.330] [INFO] default - [login]: user => "ftp"
+[2020-12-19T14:34:43.330] [INFO] default - [login]: password => "Admin@123"
+[2020-12-19T14:34:43.330] [INFO] default - [login]: sftp => undefined
+[2020-12-19T14:34:43.362] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:37:34.182] [INFO] default - login fn start...
+[2020-12-19T14:37:34.183] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:37:34.184] [ERROR] default - loginOptions error: port is error!
+[2020-12-19T14:37:34.184] [INFO] default - login options: 
+[2020-12-19T14:37:34.184] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:37:34.184] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:37:34.184] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:37:34.185] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:37:34.185] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:37:34.196] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:40:12.743] [INFO] default - login fn start...
+[2020-12-19T14:40:12.745] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:40:12.745] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:40:12.745] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T14:40:12.745] [ERROR] default - loginOptions error: port is error!
+[2020-12-19T14:40:12.746] [INFO] default - login options: 
+[2020-12-19T14:40:12.746] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:40:12.746] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:40:12.746] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:40:12.746] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:40:12.746] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:40:12.755] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:42:24.450] [INFO] default - login fn start...
+[2020-12-19T14:42:24.452] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:42:24.453] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:42:24.453] [INFO] default - login options: 
+[2020-12-19T14:42:24.453] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:42:24.453] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:42:24.453] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:42:24.453] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:42:24.453] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:42:24.462] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:43:14.117] [INFO] default - login fn start...
+[2020-12-19T14:43:14.120] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:43:14.120] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:43:36.451] [INFO] default - login fn start...
+[2020-12-19T14:43:36.453] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:43:36.453] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:43:36.453] [INFO] default - login options: 
+[2020-12-19T14:43:36.454] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:43:36.454] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:43:36.454] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:43:36.454] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:43:36.454] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:43:36.462] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:44:37.067] [INFO] default - login fn start...
+[2020-12-19T14:44:37.069] [INFO] default - login options: 
+[2020-12-19T14:44:37.069] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:44:37.070] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:44:37.070] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:44:37.070] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:44:37.070] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:44:37.070] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:44:37.070] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:44:37.080] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:45:33.572] [INFO] default - login fn start...
+[2020-12-19T14:45:33.574] [INFO] default - login options: 
+[2020-12-19T14:45:33.574] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:45:33.574] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:45:33.575] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:45:33.575] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:45:33.575] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:45:33.575] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:45:33.575] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:45:33.586] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:48:02.566] [INFO] default - login fn start...
+[2020-12-19T14:48:02.568] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:48:02.568] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:48:02.569] [INFO] default - close connection.
+[2020-12-19T14:49:22.767] [INFO] default - login fn start...
+[2020-12-19T14:49:22.769] [INFO] default - login options: 
+[2020-12-19T14:49:22.769] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:49:22.769] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:49:22.769] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:49:22.769] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:49:22.769] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:49:22.770] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:49:22.770] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:49:22.779] [ERROR] default - Error: getaddrinfo ENOTFOUND xxx
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'xxx'
+}
+[2020-12-19T14:49:41.909] [INFO] default - login fn start...
+[2020-12-19T14:49:41.912] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:49:41.913] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:49:41.913] [INFO] default - close connection.
+[2020-12-19T14:50:31.812] [INFO] default - login fn start...
+[2020-12-19T14:50:31.814] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:50:31.814] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:50:31.815] [INFO] default - true
+[2020-12-19T14:50:31.815] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:50:31.815] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:50:31.816] [INFO] default - close connection.
+[2020-12-19T14:51:42.142] [INFO] default - login fn start...
+[2020-12-19T14:51:42.144] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:51:42.144] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:51:42.145] [INFO] default - true
+[2020-12-19T14:51:42.145] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:51:42.145] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:55:10.295] [INFO] default - login fn start...
+[2020-12-19T14:55:10.297] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:55:10.297] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:55:10.298] [INFO] default - true
+[2020-12-19T14:55:10.298] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:55:10.298] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:55:10.299] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T14:57:44.503] [INFO] default - login fn start...
+[2020-12-19T14:57:44.506] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:57:44.506] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:57:44.506] [INFO] default - true
+[2020-12-19T14:57:44.506] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:57:44.506] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:57:44.507] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T14:57:58.772] [INFO] default - login fn start...
+[2020-12-19T14:57:58.774] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:57:58.775] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:57:58.776] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T14:58:17.746] [INFO] default - login fn start...
+[2020-12-19T14:58:17.748] [INFO] default - login options: 
+[2020-12-19T14:58:17.748] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:58:17.748] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:58:17.748] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:58:17.748] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:58:17.748] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:58:17.749] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:58:17.749] [ERROR] default - loginOptions error: host is error!
+[2020-12-19T14:58:17.749] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T14:59:43.490] [INFO] default - login fn start...
+[2020-12-19T14:59:43.492] [INFO] default - login options: 
+[2020-12-19T14:59:43.493] [DEBUG] default - [login]: host => "xxx"
+[2020-12-19T14:59:43.493] [DEBUG] default - [login]: port => 21
+[2020-12-19T14:59:43.493] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:59:43.493] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:59:43.493] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:59:43.493] [DEBUG] default - [validateLoginOptions]: options.host => "xxx"
+[2020-12-19T14:59:43.493] [ERROR] default - loginOptions error: host checked fail! please input an ip
+[2020-12-19T14:59:43.494] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T14:59:52.388] [INFO] default - login fn start...
+[2020-12-19T14:59:52.390] [INFO] default - login options: 
+[2020-12-19T14:59:52.391] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T14:59:52.391] [DEBUG] default - [login]: port => "xxx"
+[2020-12-19T14:59:52.391] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T14:59:52.391] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T14:59:52.391] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T14:59:52.391] [DEBUG] default - [validateLoginOptions]: options.port => "xxx"
+[2020-12-19T14:59:52.391] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T14:59:52.392] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:01:12.539] [INFO] default - login fn start...
+[2020-12-19T15:01:12.541] [INFO] default - login options: 
+[2020-12-19T15:01:12.541] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:01:12.541] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:01:12.541] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:01:12.541] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:01:12.618] [INFO] default - server is ready.
+[2020-12-19T15:01:12.619] [INFO] default - start upload fn
+[2020-12-19T15:01:12.620] [INFO] default - start getfileFromPath..
+[2020-12-19T15:01:12.623] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:01:12.623] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:01:12.624] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:01:12.624] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:01:12.624] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T15:01:12.624] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T15:01:12.625] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T15:01:12.625] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T15:01:12.666] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T15:01:12.712] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T15:01:12.752] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T15:01:12.752] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:01:12.752] [INFO] default - start list fn
+[2020-12-19T15:01:12.794] [INFO] default - file list on server: 
+[2020-12-19T15:01:12.794] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:01:12.794] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:01:12.794] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:01:12.794] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:01:12.795] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:01:12.795] [INFO] default - close connection.
+[2020-12-19T15:01:51.860] [INFO] default - login fn start...
+[2020-12-19T15:01:51.861] [INFO] default - login options: 
+[2020-12-19T15:01:51.862] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:01:51.862] [DEBUG] default - [login]: port => 22
+[2020-12-19T15:01:51.862] [DEBUG] default - [login]: user => "sftp"
+[2020-12-19T15:01:51.862] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:01:51.862] [DEBUG] default - [login]: sftp => true
+[2020-12-19T15:01:51.886] [ERROR] default - Error: connect ECONNREFUSED 47.107.157.97:22
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '47.107.157.97',
+  port: 22
+}
+[2020-12-19T15:01:51.886] [ERROR] default - Error: connect ECONNREFUSED 47.107.157.97:22
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '47.107.157.97',
+  port: 22
+}
+[2020-12-19T15:02:15.026] [INFO] default - login fn start...
+[2020-12-19T15:02:15.027] [INFO] default - login options: 
+[2020-12-19T15:02:15.028] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:02:15.028] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:02:15.028] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:02:15.028] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:02:15.091] [INFO] default - server is ready.
+[2020-12-19T15:02:15.092] [INFO] default - start list fn
+[2020-12-19T15:02:15.134] [INFO] default - file list on server: 
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:02:15.134] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:02:15.135] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:02:15.135] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:02:15.135] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:02:15.135] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:02:15.135] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:02:15.135] [INFO] default - close connection.
+[2020-12-19T15:03:00.387] [INFO] default - login fn start...
+[2020-12-19T15:03:00.389] [INFO] default - login options: 
+[2020-12-19T15:03:00.389] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:03:00.389] [DEBUG] default - [login]: port => true
+[2020-12-19T15:03:00.389] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:03:00.389] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:03:00.390] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:03:00.390] [DEBUG] default - [validateLoginOptions]: options.port => true
+[2020-12-19T15:03:00.390] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:03:00.391] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:03:31.523] [INFO] default - login fn start...
+[2020-12-19T15:03:31.525] [INFO] default - login options: 
+[2020-12-19T15:03:31.525] [DEBUG] default - [login]: host => ""
+[2020-12-19T15:03:31.525] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:03:31.525] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:03:31.525] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:03:31.525] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:03:31.526] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:03:31.526] [DEBUG] default - [validateLoginOptions]: options.host => ""
+[2020-12-19T15:03:31.526] [ERROR] default - loginOptions error: host checked fail! please input an ip
+[2020-12-19T15:03:31.527] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:03:50.657] [INFO] default - login fn start...
+[2020-12-19T15:03:50.658] [INFO] default - login options: 
+[2020-12-19T15:03:50.658] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:03:50.659] [DEBUG] default - [login]: port => undefined
+[2020-12-19T15:03:50.659] [DEBUG] default - [login]: user => undefined
+[2020-12-19T15:03:50.659] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:03:50.659] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:03:50.659] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T15:03:50.659] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:03:50.660] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:05:06.815] [INFO] default - login fn start...
+[2020-12-19T15:05:06.816] [INFO] default - login options: 
+[2020-12-19T15:05:06.816] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:05:06.816] [DEBUG] default - [login]: port => undefined
+[2020-12-19T15:05:06.816] [DEBUG] default - [login]: user => undefined
+[2020-12-19T15:05:06.816] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:05:06.816] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:05:06.816] [DEBUG] default - [validateEmpty]: option[key] => "47.107.157.97"
+[2020-12-19T15:05:06.816] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:05:06.816] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:05:06.817] [DEBUG] default - [validateEmpty]: option[key] => "Admin@123"
+[2020-12-19T15:05:06.817] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:05:06.817] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T15:05:06.817] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:05:06.818] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:06:09.490] [INFO] default - login fn start...
+[2020-12-19T15:06:09.492] [INFO] default - login options: 
+[2020-12-19T15:06:09.492] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:06:09.492] [DEBUG] default - [login]: port => undefined
+[2020-12-19T15:06:09.492] [DEBUG] default - [login]: user => undefined
+[2020-12-19T15:06:09.492] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:06:09.492] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:06:09.492] [DEBUG] default - [validateEmpty]: option[key] => "47.107.157.97"
+[2020-12-19T15:06:09.492] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:06:09.492] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:06:09.493] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:06:09.493] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:06:09.493] [DEBUG] default - [validateEmpty]: option[key] => "Admin@123"
+[2020-12-19T15:06:09.493] [DEBUG] default - [validateEmpty]: option[key] => undefined
+[2020-12-19T15:06:09.493] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:06:09.493] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T15:06:09.493] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:06:09.494] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:07:00.093] [INFO] default - login fn start...
+[2020-12-19T15:07:00.094] [INFO] default - login options: 
+[2020-12-19T15:07:00.094] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:07:00.095] [DEBUG] default - [login]: port => undefined
+[2020-12-19T15:07:00.095] [DEBUG] default - [login]: user => undefined
+[2020-12-19T15:07:00.095] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:07:00.095] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:07:00.095] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:07:00.095] [DEBUG] default - [validateEmpty]: port => true
+[2020-12-19T15:07:00.095] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:07:00.095] [DEBUG] default - [validateEmpty]: user => true
+[2020-12-19T15:07:00.095] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:07:00.095] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:07:00.095] [DEBUG] default - [validateEmpty]: sftp => true
+[2020-12-19T15:07:00.095] [ERROR] default - [validateLoginOptions]: loginOptions error: 
+[2020-12-19T15:07:00.096] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T15:07:00.096] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:07:00.097] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:07:41.284] [INFO] default - login fn start...
+[2020-12-19T15:07:41.286] [INFO] default - login options: 
+[2020-12-19T15:07:41.286] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:07:41.286] [DEBUG] default - [login]: port => undefined
+[2020-12-19T15:07:41.286] [DEBUG] default - [login]: user => undefined
+[2020-12-19T15:07:41.286] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:07:41.286] [DEBUG] default - [login]: sftp => undefined
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateEmpty]: port => true
+[2020-12-19T15:07:41.287] [ERROR] default - [validateLoginOptions]: loginOptions error: port can not be empty!
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateEmpty]: user => true
+[2020-12-19T15:07:41.287] [ERROR] default - [validateLoginOptions]: loginOptions error: user can not be empty!
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateEmpty]: sftp => true
+[2020-12-19T15:07:41.287] [ERROR] default - [validateLoginOptions]: loginOptions error: sftp can not be empty!
+[2020-12-19T15:07:41.287] [DEBUG] default - [validateLoginOptions]: options.port => undefined
+[2020-12-19T15:07:41.288] [ERROR] default - loginOptions error: port checked fail! please input a port 
+[2020-12-19T15:07:41.288] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:10:49.302] [INFO] default - login fn start...
+[2020-12-19T15:10:49.304] [INFO] default - login options: 
+[2020-12-19T15:10:49.304] [DEBUG] default - [validateLoginOptions]: options.host => undefined
+[2020-12-19T15:10:49.304] [ERROR] default - loginOptions error: host checked fail! please input an ip
+[2020-12-19T15:10:49.305] [ERROR] default - login failed, pleas correct and retry
+[2020-12-19T15:11:04.970] [INFO] default - login fn start...
+[2020-12-19T15:11:04.973] [INFO] default - login options: 
+[2020-12-19T15:11:04.973] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:11:04.973] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:11:04.973] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:11:04.973] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:11:04.973] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:11:04.973] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:11:04.973] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:11:04.973] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:11:05.058] [INFO] default - server is ready.
+[2020-12-19T15:11:05.058] [INFO] default - start list fn
+[2020-12-19T15:11:05.115] [INFO] default - file list on server: 
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:11:05.115] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:11:05.116] [INFO] default - close connection.
+[2020-12-19T15:11:32.142] [INFO] default - login fn start...
+[2020-12-19T15:11:32.144] [INFO] default - login options: 
+[2020-12-19T15:11:32.144] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:11:32.144] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:11:32.144] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:11:32.144] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:11:32.144] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:11:32.145] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:11:32.145] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:11:32.145] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:11:32.227] [INFO] default - server is ready.
+[2020-12-19T15:11:32.228] [INFO] default - start list fn
+[2020-12-19T15:11:32.276] [INFO] default - file list on server: 
+[2020-12-19T15:11:32.276] [DEBUG] default - [list]: fileInfo => {"name":"111","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"}
+[2020-12-19T15:11:32.276] [DEBUG] default - [list]: fileInfo => {"name":"222","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-12T15:30:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"xux","type":"d","size":0,"date":"2020-12-18T01:23:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T15:11:32.277] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T15:11:32.277] [INFO] default - close connection.
+[2020-12-19T15:15:21.785] [INFO] default - login fn start...
+[2020-12-19T15:15:21.786] [INFO] default - login options: 
+[2020-12-19T15:15:21.786] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:15:21.786] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:15:21.787] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:15:21.787] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:15:21.787] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:15:21.787] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:15:21.787] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:15:21.787] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:15:21.850] [INFO] default - server is ready.
+[2020-12-19T15:15:21.851] [INFO] default - start list fn
+[2020-12-19T15:17:27.443] [INFO] default - login fn start...
+[2020-12-19T15:17:27.445] [INFO] default - login options: 
+[2020-12-19T15:17:27.445] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:17:27.445] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:17:27.445] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:17:27.446] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:17:27.446] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:17:27.446] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:17:27.446] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:17:27.446] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:17:27.525] [INFO] default - server is ready.
+[2020-12-19T15:17:27.525] [INFO] default - start list fn
+[2020-12-19T15:21:39.000] [INFO] default - login fn start...
+[2020-12-19T15:21:39.002] [INFO] default - login options: 
+[2020-12-19T15:21:39.002] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:21:39.002] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:21:39.002] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:21:39.003] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:21:39.003] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:21:39.003] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:21:39.003] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:21:39.003] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:21:39.078] [INFO] default - server is ready.
+[2020-12-19T15:21:39.079] [INFO] default - start list fn
+[2020-12-19T15:22:29.492] [INFO] default - login fn start...
+[2020-12-19T15:22:29.494] [INFO] default - login options: 
+[2020-12-19T15:22:29.494] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:22:29.494] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:22:29.494] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:22:29.494] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:22:29.494] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:22:29.494] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:22:29.495] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:22:29.495] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:22:29.580] [INFO] default - server is ready.
+[2020-12-19T15:22:29.580] [INFO] default - start list fn
+[2020-12-19T15:24:23.405] [INFO] default - login fn start...
+[2020-12-19T15:24:23.407] [INFO] default - login options: 
+[2020-12-19T15:24:23.407] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:24:23.407] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:24:23.407] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:24:23.407] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:24:23.407] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:24:23.407] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:24:23.407] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:24:23.408] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:24:23.489] [INFO] default - server is ready.
+[2020-12-19T15:24:23.490] [INFO] default - start list fn
+[2020-12-19T15:24:32.735] [INFO] default - login fn start...
+[2020-12-19T15:24:32.737] [INFO] default - login options: 
+[2020-12-19T15:24:32.737] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:24:32.737] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:24:32.737] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:24:32.737] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:24:32.737] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:24:32.738] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:24:32.738] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:24:32.738] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:24:32.809] [INFO] default - server is ready.
+[2020-12-19T15:24:32.810] [INFO] default - start list fn
+[2020-12-19T15:25:04.763] [INFO] default - login fn start...
+[2020-12-19T15:25:04.765] [INFO] default - login options: 
+[2020-12-19T15:25:04.766] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:25:04.766] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:25:04.766] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:25:04.766] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:25:04.766] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:25:04.766] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:25:04.766] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:25:04.766] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:25:04.855] [INFO] default - server is ready.
+[2020-12-19T15:25:04.855] [INFO] default - start list fn
+[2020-12-19T15:26:04.072] [INFO] default - login fn start...
+[2020-12-19T15:26:04.074] [INFO] default - login options: 
+[2020-12-19T15:26:04.074] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:26:04.074] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:26:04.074] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:26:04.074] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:26:04.074] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:26:04.075] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:26:04.075] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:26:04.075] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:26:04.152] [INFO] default - server is ready.
+[2020-12-19T15:26:04.153] [INFO] default - start list fn
+[2020-12-19T15:26:04.189] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:26:04.189] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:26:04.190] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:26:04.190] [INFO] default - no file
+[2020-12-19T15:26:04.190] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:26:53.792] [INFO] default - login fn start...
+[2020-12-19T15:26:53.796] [INFO] default - login options: 
+[2020-12-19T15:26:53.796] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:26:53.796] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:26:53.796] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:26:53.796] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:26:53.797] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:26:53.797] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:26:53.797] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:26:53.797] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:26:53.885] [INFO] default - server is ready.
+[2020-12-19T15:26:53.887] [INFO] default - start list fn
+[2020-12-19T15:26:53.924] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:26:53.925] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:26:53.925] [INFO] default - no file
+[2020-12-19T15:26:53.925] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:27:56.522] [INFO] default - login fn start...
+[2020-12-19T15:27:56.524] [INFO] default - login options: 
+[2020-12-19T15:27:56.524] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:27:56.524] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:27:56.524] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:27:56.524] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:27:56.525] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:27:56.525] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:27:56.525] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:27:56.525] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:27:56.581] [INFO] default - server is ready.
+[2020-12-19T15:27:56.582] [INFO] default - start list fn
+[2020-12-19T15:27:56.613] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:27:56.613] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:27:56.613] [INFO] default - no file
+[2020-12-19T15:27:56.614] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:27:56.614] [INFO] default - close connection.
+[2020-12-19T15:28:10.650] [INFO] default - login fn start...
+[2020-12-19T15:28:10.652] [INFO] default - login options: 
+[2020-12-19T15:28:10.652] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:28:10.652] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:28:10.652] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:28:10.652] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:28:10.653] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:28:10.653] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:28:10.653] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:28:10.653] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:28:10.741] [INFO] default - server is ready.
+[2020-12-19T15:28:10.742] [INFO] default - start list fn
+[2020-12-19T15:28:10.780] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:28:10.780] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:28:10.780] [INFO] default - no file
+[2020-12-19T15:28:10.781] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:28:10.781] [INFO] default - close connection.
+[2020-12-19T15:28:49.777] [INFO] default - login fn start...
+[2020-12-19T15:28:49.781] [INFO] default - login options: 
+[2020-12-19T15:28:49.781] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:28:49.781] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:28:49.781] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:28:49.781] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:28:49.781] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:28:49.782] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:28:49.782] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:28:49.782] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:28:49.867] [INFO] default - server is ready.
+[2020-12-19T15:28:49.868] [INFO] default - start list fn
+[2020-12-19T15:28:49.903] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:28:49.904] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:28:49.904] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:28:49.905] [INFO] default - close connection.
+[2020-12-19T15:30:54.932] [INFO] default - login fn start...
+[2020-12-19T15:30:54.935] [INFO] default - login options: 
+[2020-12-19T15:30:54.935] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:30:54.935] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:30:54.935] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:30:54.935] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:30:54.935] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:30:54.935] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:30:54.935] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:30:54.935] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:30:54.997] [INFO] default - server is ready.
+[2020-12-19T15:30:54.998] [INFO] default - start list fn
+[2020-12-19T15:30:55.028] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:30:55.028] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:30:55.029] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:30:55.029] [INFO] default - close connection.
+[2020-12-19T15:31:40.373] [INFO] default - login fn start...
+[2020-12-19T15:31:40.375] [INFO] default - login options: 
+[2020-12-19T15:31:40.375] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:31:40.375] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:31:40.376] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:31:40.376] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:31:40.376] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:31:40.376] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:31:40.376] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:31:40.376] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:31:40.431] [INFO] default - server is ready.
+[2020-12-19T15:31:40.432] [INFO] default - start list fn
+[2020-12-19T15:31:40.462] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:31:40.462] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:31:40.463] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:31:40.464] [INFO] default - close connection.
+[2020-12-19T15:32:39.146] [INFO] default - login fn start...
+[2020-12-19T15:32:39.148] [INFO] default - login options: 
+[2020-12-19T15:32:39.148] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:32:39.148] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:32:39.148] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:32:39.148] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:32:39.148] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:32:39.149] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:32:39.149] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:32:39.149] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:32:39.223] [INFO] default - server is ready.
+[2020-12-19T15:32:39.224] [INFO] default - start list fn
+[2020-12-19T15:32:39.260] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:32:39.260] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:32:39.261] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:32:39.261] [INFO] default - close connection.
+[2020-12-19T15:33:09.793] [INFO] default - login fn start...
+[2020-12-19T15:33:09.795] [INFO] default - login options: 
+[2020-12-19T15:33:09.795] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:33:09.795] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:33:09.795] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:33:09.795] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:33:09.795] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:33:09.796] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:33:09.796] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:33:09.796] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:33:09.876] [INFO] default - server is ready.
+[2020-12-19T15:33:09.877] [INFO] default - start list fn
+[2020-12-19T15:33:09.877] [DEBUG] default - [list]: destPath => true
+[2020-12-19T15:33:09.918] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:33:09.919] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:33:09.919] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:33:09.920] [INFO] default - close connection.
+[2020-12-19T15:33:19.586] [INFO] default - login fn start...
+[2020-12-19T15:33:19.587] [INFO] default - login options: 
+[2020-12-19T15:33:19.587] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:33:19.587] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:33:19.587] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:33:19.588] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:33:19.588] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:33:19.588] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:33:19.588] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:33:19.588] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:33:19.667] [INFO] default - server is ready.
+[2020-12-19T15:33:19.668] [INFO] default - start list fn
+[2020-12-19T15:33:19.668] [DEBUG] default - [list]: destPath => true
+[2020-12-19T15:33:19.700] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:33:19.700] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:33:19.701] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:33:19.702] [INFO] default - close connection.
+[2020-12-19T15:34:32.317] [INFO] default - login fn start...
+[2020-12-19T15:34:32.319] [INFO] default - login options: 
+[2020-12-19T15:34:32.319] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:34:32.319] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:34:32.319] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:34:32.319] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:34:32.319] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:34:32.320] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:34:32.320] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:34:32.320] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:34:32.403] [INFO] default - server is ready.
+[2020-12-19T15:34:32.404] [INFO] default - start list fn
+[2020-12-19T15:34:32.404] [DEBUG] default - [list]: destPath => true
+[2020-12-19T15:34:32.405] [ERROR] default - [list]: destination path can not be empty
+[2020-12-19T15:34:32.406] [INFO] default - close connection.
+[2020-12-19T15:35:08.030] [INFO] default - login fn start...
+[2020-12-19T15:35:08.031] [INFO] default - login options: 
+[2020-12-19T15:35:08.031] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:35:08.032] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:35:08.032] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:35:08.032] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:35:08.032] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:35:08.032] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:35:08.032] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:35:08.032] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:35:08.104] [INFO] default - server is ready.
+[2020-12-19T15:35:08.104] [INFO] default - start list fn
+[2020-12-19T15:35:08.105] [DEBUG] default - [list]: destPath => "/"
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: list => [{"name":"111","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"},{"name":"222","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"},{"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"},{"name":"czm","type":"d","size":0,"date":"2020-12-12T15:30:00.000Z"},{"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"},{"name":"xux","type":"d","size":0,"date":"2020-12-18T01:23:00.000Z"},{"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"},{"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"},{"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"},{"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}]
+[2020-12-19T15:35:08.150] [INFO] default - file list on server: 
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: fileInfo => {"name":"111","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"}
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: fileInfo => {"name":"222","type":"d","size":0,"date":"2020-12-18T09:06:00.000Z"}
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-12T15:30:00.000Z"}
+[2020-12-19T15:35:08.150] [DEBUG] default - [list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T15:35:08.151] [DEBUG] default - [list]: fileInfo => {"name":"xux","type":"d","size":0,"date":"2020-12-18T01:23:00.000Z"}
+[2020-12-19T15:35:08.151] [DEBUG] default - [list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"}
+[2020-12-19T15:35:08.151] [DEBUG] default - [list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:35:08.151] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T15:35:08.151] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T15:35:08.151] [INFO] default - close connection.
+[2020-12-19T15:42:35.485] [INFO] default - login fn start...
+[2020-12-19T15:42:35.488] [INFO] default - login options: 
+[2020-12-19T15:42:35.488] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:42:35.488] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:42:35.488] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:42:35.488] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:42:35.488] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:42:35.488] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:42:35.488] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:42:35.489] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:42:35.610] [INFO] default - server is ready.
+[2020-12-19T15:42:35.611] [INFO] default - start upload fn
+[2020-12-19T15:42:35.612] [INFO] default - start getfileFromPath..
+[2020-12-19T15:42:35.616] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:42:35.616] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:42:35.616] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:42:35.616] [INFO] default - start list fn
+[2020-12-19T15:42:35.617] [DEBUG] default - [list]: destPath => undefined
+[2020-12-19T15:42:35.617] [ERROR] default - [list]: destination path can not be empty
+[2020-12-19T15:43:06.318] [INFO] default - login fn start...
+[2020-12-19T15:43:06.320] [INFO] default - login options: 
+[2020-12-19T15:43:06.321] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:43:06.322] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:43:06.322] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:43:06.322] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:43:06.322] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:43:06.322] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:43:06.322] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:43:06.323] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:43:09.482] [INFO] default - server is ready.
+[2020-12-19T15:43:09.483] [INFO] default - start upload fn
+[2020-12-19T15:43:09.483] [INFO] default - start getfileFromPath..
+[2020-12-19T15:43:09.487] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:43:09.487] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:43:09.488] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:43:09.488] [INFO] default - start list fn
+[2020-12-19T15:43:09.488] [DEBUG] default - [list]: destPath => "/xx"
+[2020-12-19T15:43:09.520] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:43:09.520] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:43:09.521] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:43:40.924] [INFO] default - login fn start...
+[2020-12-19T15:43:40.926] [INFO] default - login options: 
+[2020-12-19T15:43:40.926] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:43:40.926] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:43:40.926] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:43:40.926] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:43:40.927] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:43:40.927] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:43:40.927] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:43:40.927] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:43:41.021] [INFO] default - server is ready.
+[2020-12-19T15:43:41.021] [INFO] default - start upload fn
+[2020-12-19T15:43:41.022] [INFO] default - start getfileFromPath..
+[2020-12-19T15:43:41.026] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:43:41.026] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:43:41.026] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:43:41.026] [INFO] default - start list fn
+[2020-12-19T15:43:41.027] [DEBUG] default - [list]: destPath => "/xx"
+[2020-12-19T15:43:41.069] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:43:41.069] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:43:41.070] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:43:41.070] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:43:41.070] [INFO] default - close connection.
+[2020-12-19T15:43:56.544] [INFO] default - login fn start...
+[2020-12-19T15:43:56.546] [INFO] default - login options: 
+[2020-12-19T15:43:56.546] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:43:56.546] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:43:56.546] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:43:56.546] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:43:56.547] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:43:56.547] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:43:56.547] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:43:56.547] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:43:56.645] [INFO] default - server is ready.
+[2020-12-19T15:43:56.646] [INFO] default - start upload fn
+[2020-12-19T15:43:56.646] [INFO] default - start getfileFromPath..
+[2020-12-19T15:43:56.650] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:43:56.650] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:43:56.651] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:43:56.651] [INFO] default - start list fn
+[2020-12-19T15:43:56.651] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:43:56.700] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:43:56.700] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:01:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:01:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:01:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:43:56.700] [INFO] default - file list on server: 
+[2020-12-19T15:43:56.700] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:43:56.700] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:43:56.700] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:43:56.701] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:43:56.702] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T15:43:56.702] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T15:43:56.702] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T15:43:56.702] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T15:43:56.747] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T15:43:56.801] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T15:43:56.856] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T15:43:56.856] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:43:56.856] [INFO] default - start list fn
+[2020-12-19T15:43:56.856] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:43:56.904] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:43:56.905] [INFO] default - file list on server: 
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:43:56.905] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:43:56.906] [INFO] default - close connection.
+[2020-12-19T15:44:07.988] [INFO] default - login fn start...
+[2020-12-19T15:44:07.990] [INFO] default - login options: 
+[2020-12-19T15:44:07.991] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:44:07.991] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:44:07.991] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:44:07.991] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:44:07.991] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:44:07.991] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:44:07.991] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:44:07.991] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:44:08.054] [INFO] default - server is ready.
+[2020-12-19T15:44:08.055] [INFO] default - start upload fn
+[2020-12-19T15:44:08.055] [INFO] default - start getfileFromPath..
+[2020-12-19T15:44:08.057] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T15:44:08.057] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T15:44:08.057] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:44:08.057] [INFO] default - start list fn
+[2020-12-19T15:44:08.057] [DEBUG] default - [list]: destPath => "/xx"
+[2020-12-19T15:44:08.091] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:44:08.091] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:44:08.092] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:44:08.092] [INFO] default - close connection.
+[2020-12-19T15:45:11.289] [INFO] default - login fn start...
+[2020-12-19T15:45:11.291] [INFO] default - login options: 
+[2020-12-19T15:45:11.291] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:45:11.291] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:45:11.291] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:45:11.291] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:45:11.292] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:45:11.292] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:45:11.292] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:45:11.292] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:45:11.372] [INFO] default - server is ready.
+[2020-12-19T15:45:11.372] [INFO] default - start upload fn
+[2020-12-19T15:45:11.373] [INFO] default - start getfileFromPath..
+[2020-12-19T15:45:11.376] [DEBUG] default - [getFilePathFromPath]: fileList => []
+[2020-12-19T15:45:11.376] [INFO] default - start list fn
+[2020-12-19T15:45:11.377] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:45:11.428] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:45:11.428] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:45:11.428] [INFO] default - file list on server: 
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:11.429] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:45:11.430] [DEBUG] default - [parallelUpload]: fileList => []
+[2020-12-19T15:45:11.430] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T15:45:11.430] [DEBUG] default - [upload-success]: fileList => []
+[2020-12-19T15:45:11.430] [INFO] default - start list fn
+[2020-12-19T15:45:11.430] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:45:11.468] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:45:11.468] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:45:11.468] [INFO] default - file list on server: 
+[2020-12-19T15:45:11.468] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.468] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:11.469] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:45:11.469] [INFO] default - close connection.
+[2020-12-19T15:45:30.142] [INFO] default - login fn start...
+[2020-12-19T15:45:30.143] [INFO] default - login options: 
+[2020-12-19T15:45:30.143] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:45:30.144] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:45:30.144] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:45:30.144] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:45:30.144] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:45:30.144] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:45:30.144] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:45:30.144] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:45:30.225] [INFO] default - server is ready.
+[2020-12-19T15:45:30.225] [INFO] default - start upload fn
+[2020-12-19T15:45:30.226] [INFO] default - start getfileFromPath..
+[2020-12-19T15:45:30.228] [DEBUG] default - [getFilePathFromPath]: fileList => []
+[2020-12-19T15:45:30.229] [INFO] default - start list fn
+[2020-12-19T15:45:30.229] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:45:30.276] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:45:30.277] [INFO] default - file list on server: 
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:30.277] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:45:30.278] [DEBUG] default - [parallelUpload]: fileList => []
+[2020-12-19T15:45:30.278] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T15:45:30.278] [DEBUG] default - [upload-success]: fileList => []
+[2020-12-19T15:45:30.278] [INFO] default - start list fn
+[2020-12-19T15:45:30.278] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:45:30.324] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:45:30.325] [INFO] default - file list on server: 
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:45:30.325] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:45:30.326] [INFO] default - close connection.
+[2020-12-19T15:48:48.929] [INFO] default - login fn start...
+[2020-12-19T15:48:48.931] [INFO] default - login options: 
+[2020-12-19T15:48:48.931] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:48:48.931] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:48:48.931] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:48:48.931] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:48:48.932] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:48:48.932] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:48:48.932] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:48:48.932] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:48:49.038] [INFO] default - server is ready.
+[2020-12-19T15:48:49.039] [INFO] default - start upload fn
+[2020-12-19T15:48:49.039] [INFO] default - start getfileFromPath..
+[2020-12-19T15:48:49.043] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:48:49.043] [DEBUG] default - [getFilePathFromPath]: fileList => []
+[2020-12-19T15:48:49.044] [INFO] default - start list fn
+[2020-12-19T15:48:49.044] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:48:49.096] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:48:49.096] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:48:49.096] [INFO] default - file list on server: 
+[2020-12-19T15:48:49.096] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.096] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:48:49.096] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:48:49.097] [DEBUG] default - [parallelUpload]: fileList => []
+[2020-12-19T15:48:49.097] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T15:48:49.097] [DEBUG] default - [upload-success]: fileList => []
+[2020-12-19T15:48:49.098] [INFO] default - start list fn
+[2020-12-19T15:48:49.098] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: err => undefined
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T15:48:49.148] [INFO] default - file list on server: 
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T15:48:49.148] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T15:48:49.149] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T15:48:49.149] [INFO] default - close connection.
+[2020-12-19T15:51:22.421] [INFO] default - login fn start...
+[2020-12-19T15:51:22.423] [INFO] default - login options: 
+[2020-12-19T15:51:22.423] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:51:22.423] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:51:22.423] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:51:22.423] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:51:22.423] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:51:22.423] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:51:22.423] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:51:22.423] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:51:22.507] [INFO] default - server is ready.
+[2020-12-19T15:51:22.507] [INFO] default - start upload fn
+[2020-12-19T15:51:22.508] [INFO] default - start getfileFromPath..
+[2020-12-19T15:51:22.510] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:51:22.510] [ERROR] default - [getFilePathFromPath]: can not find any files to upload
+[2020-12-19T15:51:22.510] [ERROR] default - upload fn can not find filed to upload
+[2020-12-19T15:51:22.510] [INFO] default - start list fn
+[2020-12-19T15:51:22.510] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:51:22.510] [ERROR] default - upload fn can not find filed to upload
+[2020-12-19T15:51:22.511] [INFO] default - close connection.
+[2020-12-19T15:52:09.809] [INFO] default - login fn start...
+[2020-12-19T15:52:09.811] [INFO] default - login options: 
+[2020-12-19T15:52:09.811] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:52:09.811] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:52:09.811] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:52:09.811] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:52:09.811] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:52:09.811] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:52:09.811] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:52:09.811] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:52:09.873] [INFO] default - server is ready.
+[2020-12-19T15:52:09.874] [INFO] default - start upload fn
+[2020-12-19T15:52:09.874] [INFO] default - start getfileFromPath..
+[2020-12-19T15:52:09.878] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:52:09.878] [ERROR] default - [getFilePathFromPath]: can not find any files to upload
+[2020-12-19T15:52:09.879] [ERROR] default - upload fn can not find filed to upload
+[2020-12-19T15:52:09.879] [INFO] default - start list fn
+[2020-12-19T15:52:09.879] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T15:52:09.879] [ERROR] default - 
+[2020-12-19T15:52:09.880] [INFO] default - close connection.
+[2020-12-19T15:55:17.633] [INFO] default - login fn start...
+[2020-12-19T15:55:17.634] [INFO] default - login options: 
+[2020-12-19T15:55:17.634] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:55:17.635] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:55:17.635] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:55:17.635] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:55:17.635] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:55:17.635] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:55:17.635] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:55:17.635] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:55:17.697] [INFO] default - server is ready.
+[2020-12-19T15:55:17.698] [INFO] default - start upload fn
+[2020-12-19T15:55:17.698] [INFO] default - start getfileFromPath..
+[2020-12-19T15:55:17.702] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:55:17.702] [ERROR] default - [getFilePathFromPath]: can not find any files to upload
+[2020-12-19T15:55:17.702] [ERROR] default - upload fn can not find filed to upload
+[2020-12-19T15:55:17.703] [ERROR] default - 
+[2020-12-19T15:55:17.703] [INFO] default - close connection.
+[2020-12-19T15:55:40.690] [INFO] default - login fn start...
+[2020-12-19T15:55:40.691] [INFO] default - login options: 
+[2020-12-19T15:55:40.692] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:55:40.692] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:55:40.692] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:55:40.692] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:55:40.692] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:55:40.692] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:55:40.692] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:55:40.692] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:55:43.765] [INFO] default - server is ready.
+[2020-12-19T15:55:43.765] [INFO] default - start upload fn
+[2020-12-19T15:55:43.766] [INFO] default - start getfileFromPath..
+[2020-12-19T15:55:43.769] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:55:43.769] [ERROR] default - [getFilePathFromPath]: can not find any files to upload
+[2020-12-19T15:55:43.769] [ERROR] default - upload fn can not find files to upload
+[2020-12-19T15:55:43.769] [ERROR] default - 
+[2020-12-19T15:55:43.770] [INFO] default - close connection.
+[2020-12-19T15:56:48.489] [INFO] default - login fn start...
+[2020-12-19T15:56:48.491] [INFO] default - login options: 
+[2020-12-19T15:56:48.491] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:56:48.491] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:56:48.491] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:56:48.491] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:56:48.491] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:56:48.491] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:56:48.491] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:56:48.491] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:56:48.598] [INFO] default - server is ready.
+[2020-12-19T15:56:48.599] [INFO] default - start upload fn
+[2020-12-19T15:56:48.599] [INFO] default - start getfileFromPath..
+[2020-12-19T15:56:48.603] [DEBUG] default - [getFilePathFromPath]: filePaths => []
+[2020-12-19T15:56:48.603] [ERROR] default - [getFilePathFromPath]: can not find any files to upload
+[2020-12-19T15:56:48.603] [ERROR] default - upload fn can not find files to upload
+[2020-12-19T15:56:48.604] [ERROR] default - 
+[2020-12-19T15:56:48.604] [INFO] default - close connection.
+[2020-12-19T15:57:04.244] [INFO] default - login fn start...
+[2020-12-19T15:57:04.246] [INFO] default - login options: 
+[2020-12-19T15:57:04.246] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T15:57:04.246] [DEBUG] default - [login]: port => 21
+[2020-12-19T15:57:04.246] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T15:57:04.246] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T15:57:04.247] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T15:57:04.247] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T15:57:04.247] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T15:57:04.247] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T15:57:04.321] [INFO] default - server is ready.
+[2020-12-19T15:57:04.322] [INFO] default - start upload fn
+[2020-12-19T15:57:04.322] [INFO] default - start getfileFromPath..
+[2020-12-19T15:57:04.326] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files"]
+[2020-12-19T15:57:04.326] [INFO] default - ./upload_filesis a filefalse
+[2020-12-19T15:57:04.327] [INFO] default - ./upload_filesis a dirtrue
+[2020-12-19T15:57:04.327] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T15:57:04.327] [INFO] default - start list fn
+[2020-12-19T15:57:04.327] [DEBUG] default - [list]: destPath => "/xx"
+[2020-12-19T15:57:04.358] [DEBUG] default - [list]: err => {"code":550}
+[2020-12-19T15:57:04.358] [DEBUG] default - [list]: list => undefined
+[2020-12-19T15:57:04.358] [ERROR] default - list error: The system cannot find the file specified.
+[2020-12-19T15:57:04.359] [INFO] default - close connection.
+[2020-12-19T16:29:31.749] [INFO] default - login fn start...
+[2020-12-19T16:29:31.751] [INFO] default - login options: 
+[2020-12-19T16:29:31.752] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T16:29:31.752] [DEBUG] default - [login]: port => 21
+[2020-12-19T16:29:31.752] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T16:29:31.752] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T16:29:31.752] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T16:29:31.752] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T16:29:31.752] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T16:29:31.752] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T16:29:31.846] [INFO] default - server is ready.
+[2020-12-19T16:29:31.847] [INFO] default - start upload fn
+[2020-12-19T16:29:31.848] [INFO] default - start getfileFromPath..
+[2020-12-19T16:29:31.852] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T16:29:31.852] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T16:29:31.852] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T16:29:31.855] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:29:31.856] [INFO] default - start list fn
+[2020-12-19T16:29:31.857] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:29:31.913] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:29:31.913] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:29:31.913] [INFO] default - file list on server: 
+[2020-12-19T16:29:31.913] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T16:29:31.913] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T07:43:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:29:31.914] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:29:31.915] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T16:29:31.915] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T16:29:31.915] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T16:29:31.915] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T16:29:31.976] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T16:29:32.049] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T16:29:32.124] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T16:29:32.124] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:29:32.124] [INFO] default - start list fn
+[2020-12-19T16:29:32.125] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:29:32.186] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:29:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:29:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:29:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:29:32.187] [INFO] default - file list on server: 
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:29:32.187] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:29:32.188] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:29:32.188] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:29:32.188] [INFO] default - close connection.
+[2020-12-19T16:30:17.593] [INFO] default - login fn start...
+[2020-12-19T16:30:17.595] [INFO] default - login options: 
+[2020-12-19T16:30:17.595] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T16:30:17.595] [DEBUG] default - [login]: port => 21
+[2020-12-19T16:30:17.595] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T16:30:17.595] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T16:30:17.595] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T16:30:17.595] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T16:30:17.595] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T16:30:17.595] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T16:30:17.687] [INFO] default - server is ready.
+[2020-12-19T16:30:17.688] [INFO] default - start upload fn
+[2020-12-19T16:30:17.689] [INFO] default - start getfileFromPath..
+[2020-12-19T16:30:17.693] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T16:30:17.693] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T16:30:17.693] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T16:30:17.693] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:30:17.694] [INFO] default - start list fn
+[2020-12-19T16:30:17.694] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:30:17.746] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:30:17.746] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:29:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:29:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:29:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:30:17.747] [INFO] default - file list on server: 
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:29:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:30:17.747] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:30:17.748] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:30:17.748] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T16:30:17.748] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T16:30:17.748] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T16:30:17.748] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T16:30:17.831] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T16:30:17.919] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T16:30:18.213] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T16:30:18.214] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:30:18.214] [INFO] default - start list fn
+[2020-12-19T16:30:18.214] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:30:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:30:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:30:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:30:18.270] [INFO] default - file list on server: 
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:30:18.270] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:30:18.271] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:30:18.271] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:30:18.271] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:30:18.271] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:30:18.271] [INFO] default - close connection.
+[2020-12-19T16:43:59.042] [INFO] default - login fn start...
+[2020-12-19T16:43:59.045] [INFO] default - login options: 
+[2020-12-19T16:43:59.045] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T16:43:59.045] [DEBUG] default - [login]: port => 21
+[2020-12-19T16:43:59.045] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T16:43:59.045] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T16:43:59.045] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T16:43:59.045] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T16:43:59.045] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T16:43:59.045] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T16:43:59.156] [INFO] default - server is ready.
+[2020-12-19T16:43:59.157] [INFO] default - start upload fn
+[2020-12-19T16:43:59.157] [INFO] default - start getfileFromPath..
+[2020-12-19T16:43:59.161] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T16:43:59.161] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T16:43:59.162] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T16:43:59.162] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:43:59.162] [INFO] default - start list fn
+[2020-12-19T16:43:59.162] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:30:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:30:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:30:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:43:59.222] [INFO] default - file list on server: 
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.222] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:30:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:43:59.223] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:43:59.223] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T16:43:59.224] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T16:43:59.224] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T16:43:59.224] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T16:43:59.283] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T16:43:59.342] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T16:43:59.402] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T16:43:59.403] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:43:59.403] [INFO] default - start list fn
+[2020-12-19T16:43:59.403] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:43:59.458] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:43:59.458] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:43:59.458] [INFO] default - file list on server: 
+[2020-12-19T16:43:59.458] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:43:59.458] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:43:59.459] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:43:59.460] [INFO] default - close connection.
+[2020-12-19T16:51:44.735] [INFO] default - login fn start...
+[2020-12-19T16:51:44.737] [INFO] default - login options: 
+[2020-12-19T16:51:44.737] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T16:51:44.738] [DEBUG] default - [login]: port => 21
+[2020-12-19T16:51:44.738] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T16:51:44.738] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T16:51:44.738] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T16:51:44.738] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T16:51:44.738] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T16:51:44.738] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T16:51:44.836] [INFO] default - server is ready.
+[2020-12-19T16:51:44.837] [INFO] default - start upload fn
+[2020-12-19T16:51:44.838] [INFO] default - start getfileFromPath..
+[2020-12-19T16:51:44.841] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T16:51:44.841] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T16:51:44.842] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T16:51:44.842] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:51:44.842] [INFO] default - start list fn
+[2020-12-19T16:51:44.842] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:43:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:43:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:43:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:51:44.899] [INFO] default - file list on server: 
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:44.899] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:43:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:51:44.900] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:51:44.900] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T16:51:44.900] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T16:51:44.901] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T16:51:44.901] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T16:51:44.965] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T16:51:45.021] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T16:51:45.079] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T16:51:45.080] [DEBUG] default - [parallelUpload]: failFileList => []
+[2020-12-19T16:51:45.080] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:51:45.080] [INFO] default - start list fn
+[2020-12-19T16:51:45.080] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:51:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:51:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:51:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:51:45.131] [INFO] default - file list on server: 
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:51:45.131] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:51:45.132] [INFO] default - close connection.
+[2020-12-19T16:53:33.326] [INFO] default - login fn start...
+[2020-12-19T16:53:33.327] [INFO] default - login options: 
+[2020-12-19T16:53:33.327] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T16:53:33.328] [DEBUG] default - [login]: port => 21
+[2020-12-19T16:53:33.328] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T16:53:33.328] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T16:53:33.328] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T16:53:33.328] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T16:53:33.328] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T16:53:33.328] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T16:53:33.424] [INFO] default - server is ready.
+[2020-12-19T16:53:33.425] [INFO] default - start upload fn
+[2020-12-19T16:53:33.426] [INFO] default - start getfileFromPath..
+[2020-12-19T16:53:33.429] [DEBUG] default - [getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T16:53:33.430] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T16:53:33.430] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T16:53:33.430] [DEBUG] default - [getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:53:33.430] [INFO] default - start list fn
+[2020-12-19T16:53:33.430] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:51:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:51:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:51:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:53:33.487] [INFO] default - file list on server: 
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.487] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:51:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:53:33.488] [DEBUG] default - [parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:53:33.488] [DEBUG] default - [parallelUpload]: destPath => "/yjc/"
+[2020-12-19T16:53:33.489] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T16:53:33.489] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T16:53:33.489] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T16:53:33.543] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T16:53:33.592] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T16:53:33.649] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T16:53:33.650] [INFO] default - upload File failed number: 0
+[2020-12-19T16:53:33.650] [DEBUG] default - [parallelUpload]: failFileList => []
+[2020-12-19T16:53:33.650] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T16:53:33.651] [INFO] default - start list fn
+[2020-12-19T16:53:33.651] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: err => undefined
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:53:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:53:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:53:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T16:53:33.697] [INFO] default - file list on server: 
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T16:53:33.697] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T16:53:33.698] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T16:53:33.698] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T16:53:33.698] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T16:53:33.698] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T16:53:33.698] [INFO] default - close connection.
+[2020-12-19T17:04:17.323] [INFO] default - login fn start...
+[2020-12-19T17:04:17.325] [INFO] default - login options: 
+[2020-12-19T17:04:17.325] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T17:04:17.325] [DEBUG] default - [login]: port => 21
+[2020-12-19T17:04:17.325] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T17:04:17.325] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T17:04:17.325] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T17:04:17.325] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T17:04:17.325] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T17:04:17.326] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T17:04:17.423] [INFO] default - server is ready.
+[2020-12-19T17:04:17.423] [INFO] default - start list fn
+[2020-12-19T17:04:17.424] [DEBUG] default - [list]: destPath => "/"
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: err => undefined
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: list => [{"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"},{"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"},{"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"},{"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"},{"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"},{"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"},{"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}]
+[2020-12-19T17:04:17.476] [INFO] default - file list on server: 
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"}
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"}
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T17:04:17.477] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T17:04:17.477] [INFO] default - close connection.

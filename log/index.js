@@ -23,12 +23,12 @@ function error(errorMsg = '') {
 function info(fnName, name, value) {
     let msg = `[${fnName}]: ${name} => ${JSON.stringify(value)}`;
     console.log(msg);
-    logger.info(msg);
+    logger.debug(msg);
 };
 
 function debug(info) {
     console.log(info);
-    logger.debug(info);
+    logger.info(info);
 };
 
 function loginInfo(options) {
@@ -40,6 +40,11 @@ function loginInfo(options) {
 }
 
 function logList(list) {
+    if (!list || !list.length) {
+        debug('no file');
+        return;
+    }
+
     debug('file list on server: ');
 
     for (let fileInfo of list) {
