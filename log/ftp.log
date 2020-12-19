@@ -2766,3 +2766,51 @@
 [2020-12-19T17:18:29.700] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
 [2020-12-19T17:18:29.700] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
 [2020-12-19T17:18:29.700] [INFO] default - close connection.
+[2020-12-19T17:53:46.560] [INFO] lion - login fn start...
+[2020-12-19T17:53:46.562] [INFO] lion - login options: 
+[2020-12-19T17:53:46.562] [DEBUG] lion - [login]: host => "47.107.157.97"
+[2020-12-19T17:53:46.562] [DEBUG] lion - [login]: port => 21
+[2020-12-19T17:53:46.563] [DEBUG] lion - [login]: user => "ftp"
+[2020-12-19T17:53:46.563] [DEBUG] lion - [login]: password => "Admin@123"
+[2020-12-19T17:53:46.563] [DEBUG] lion - [validateEmpty]: host => false
+[2020-12-19T17:53:46.563] [DEBUG] lion - [validateEmpty]: port => false
+[2020-12-19T17:53:46.563] [DEBUG] lion - [validateEmpty]: user => false
+[2020-12-19T17:53:46.563] [DEBUG] lion - [validateEmpty]: password => false
+[2020-12-19T17:53:46.653] [INFO] lion - server is ready.
+[2020-12-19T17:53:46.654] [INFO] lion - start list fn
+[2020-12-19T17:53:46.654] [DEBUG] lion - [list]: destPath => "/"
+[2020-12-19T17:53:46.709] [DEBUG] lion - [list]: err => undefined
+[2020-12-19T17:53:46.709] [DEBUG] lion - [list]: list => [{"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"},{"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"},{"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"},{"name":"xyx","type":"d","size":0,"date":"2020-12-19T09:23:00.000Z"},{"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"},{"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"},{"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}]
+[2020-12-19T17:53:46.709] [INFO] lion - file list on server: 
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T09:23:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T17:53:46.710] [DEBUG] lion - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T17:53:46.711] [INFO] lion - close connection.
+[2020-12-19T18:04:01.022] [INFO] lion - 【172.23.194.90】===login fn start...
+[2020-12-19T18:04:01.023] [INFO] lion - 【172.23.194.90】===login options: 
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[login]: host => "47.107.157.97"
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[login]: port => 21
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[login]: user => "ftp"
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[login]: password => "Admin@123"
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[validateEmpty]: host => false
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[validateEmpty]: port => false
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[validateEmpty]: user => false
+[2020-12-19T18:04:01.024] [DEBUG] lion - 【172.23.194.90】===[validateEmpty]: password => false
+[2020-12-19T18:04:01.119] [INFO] lion - 【172.23.194.90】===server is ready.
+[2020-12-19T18:04:01.120] [INFO] lion - 【172.23.194.90】===start list fn
+[2020-12-19T18:04:01.120] [DEBUG] lion - 【172.23.194.90】===[list]: destPath => "/"
+[2020-12-19T18:04:01.178] [DEBUG] lion - 【172.23.194.90】===[list]: err => undefined
+[2020-12-19T18:04:01.178] [DEBUG] lion - 【172.23.194.90】===[list]: list => [{"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"},{"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"},{"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"},{"name":"xyx","type":"d","size":0,"date":"2020-12-19T09:23:00.000Z"},{"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"},{"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"},{"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}]
+[2020-12-19T18:04:01.179] [INFO] lion - 【172.23.194.90】===file list on server: 
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T09:23:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T18:04:01.179] [DEBUG] lion - 【172.23.194.90】===[list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T18:04:01.180] [INFO] lion - 【172.23.194.90】===close connection.

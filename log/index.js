@@ -1,5 +1,9 @@
 let log4js = require("log4js");
-let logger = log4js.getLogger();
+let logger = log4js.getLogger('lion');
+let address = require('address');
+
+let localIp = address.ip();
+
 logger.level = 'debug';
 log4js.configure({
     appenders: { lion: { type: "file", filename: "log/ftp.log" } },
@@ -17,18 +21,18 @@ function test() {
 
 function error(errorMsg = '') {
     console.log(errorMsg);
-    logger.error(errorMsg);
+    logger.error(`【${localIp}】===${errorMsg}`);
 };
 
 function info(fnName, name, value) {
     let msg = `[${fnName}]: ${name} => ${JSON.stringify(value)}`;
     console.log(msg);
-    logger.debug(msg);
+    logger.debug(`【${localIp}】===${msg}`);
 };
 
 function debug(info) {
     console.log(info);
-    logger.info(info);
+    logger.info(`【${localIp}】===${info}`);
 };
 
 function loginInfo(options) {
