@@ -3,7 +3,7 @@
  * @Author: lion
  * @Date: 2020-12-06 11:13:26
  * @LastEditors: lion
- * @LastEditTime: 2020-12-19 16:56:09
+ * @LastEditTime: 2020-12-19 17:18:06
  */
 const Client = require('ftp');
 const fs = require('fs');
@@ -65,7 +65,7 @@ function close(client) {
 };
 
 // 判断path是否是 目录
-function isDir(path) {
+function _isDir(path) {
     let stat = fs.statSync(path);
 
     logger.debug(path + "is a file" + stat.isFile());
@@ -74,21 +74,21 @@ function isDir(path) {
 };
 
 // 根据路径 拿到所有的 file
-async function getFilePathFromPath(path) {
+async function _getFilePathFromPath(path) {
     logger.debug('start getfileFromPath..');
     let fileList = [];
 
     // glob解析 TODO: 目录嵌套目录需要递归
     let filePaths = glob.sync(path, {});
-    logger.info('getFilePathFromPath', 'filePaths', filePaths);
+    logger.info('_getFilePathFromPath', 'filePaths', filePaths);
 
     if (!filePaths.length) {
-        logger.error('[getFilePathFromPath]: can not find any files to upload');
+        logger.error('[_getFilePathFromPath]: can not find any files to upload');
         return [];
     }
 
     for (let filePath of filePaths) {
-        let flag = await isDir(filePath);
+        let flag = await _isDir(filePath);
 
         // 如果 是 文件目录 需要取出文件
         if (flag) {
@@ -102,7 +102,7 @@ async function getFilePathFromPath(path) {
         }
     }
 
-    logger.info('getFilePathFromPath', 'fileList', fileList);
+    logger.info('_getFilePathFromPath', 'fileList', fileList);
 
     return fileList;
 };
@@ -142,7 +142,7 @@ function upload(client, path, destPath, isSerial) {
     return new Promise(async(resolve, reject) => {
         let fileList;
         try {
-            fileList = await getFilePathFromPath(path);
+            fileList = await _getFilePathFromPath(path);
             if (!fileList.length) {
                 logger.error('upload fn can not find files to upload');
                 reject();
@@ -159,9 +159,9 @@ function upload(client, path, destPath, isSerial) {
             try {
 
                 if (isSerial) {
-                    await serialUpload(client, fileList, destPath);
+                    await _serialUpload(client, fileList, destPath);
                 } else {
-                    await parallelUpload(client, fileList, destPath);
+                    await _parallelUpload(client, fileList, destPath);
                 }
                 logger.info('upload-success', 'fileList', fileList);
                 resolve(fileList);
@@ -177,33 +177,28 @@ function upload(client, path, destPath, isSerial) {
 };
 
 // 串行上传 sftp
-async function serialUpload(client, fileList, destPath) {
+async function _serialUpload(client, fileList, destPath) {
     for (let file of fileList) {
 
-        let res = await uploadOneFile(client, file, destPath);
+        let res = await _uploadOneFile(client, file, destPath);
         if (res.success) {
             continue;
         }
 
-        await reUpload(client, destPath, res);
+        await _reUpload(client, destPath, res);
     }
     logger.debug(`upload File failed number: ${failFileList.length}`);
-    logger.info('serialUpload', 'failFileList', failFileList)
+    logger.info('_serialUpload', 'failFileList', failFileList)
 
 }
 
 // 并行上传
-function parallelUpload(client, fileList, destPath) {
-    // return new Promise.all((resolve, reject) => {
-    //     fileList.forEach(file => {
-    //         uploadOneFile(client, file, destPath);
-    //     }); 
-    // });
-    logger.info('parallelUpload', 'fileList', fileList);
-    logger.info('parallelUpload', 'destPath', destPath);
+function _parallelUpload(client, fileList, destPath) {
+    logger.info('_parallelUpload', 'fileList', fileList);
+    logger.info('_parallelUpload', 'destPath', destPath);
 
     return Promise.all(
-        fileList.map(file => uploadOneFile(client, file, destPath))
+        fileList.map(file => _uploadOneFile(client, file, destPath))
     ).then(resList => {
 
         resList.forEach(async(item) => {
@@ -211,24 +206,24 @@ function parallelUpload(client, fileList, destPath) {
                 return;
             }
 
-            await reUpload(client, destPath, item);
+            await _reUpload(client, destPath, item);
 
         });
         logger.debug(`upload File failed number: ${failFileList.length}`);
-        logger.info('parallelUpload', 'failFileList', failFileList)
+        logger.info('_parallelUpload', 'failFileList', failFileList)
 
     });
 }
 
-async function reUpload(client, destPath, resItem) {
+async function _reUpload(client, destPath, resItem) {
     // 失败重连3次
     logger.debug('start to retry upload file: ', resItem.file);
-    logger.info('reUpload', 'file', resItem.file);
+    logger.info('_reUpload', 'file', resItem.file);
 
     let retry = retryNum;
 
     while (retry > 0) {
-        let res = await uploadOneFile(client, resItem.file, destPath);
+        let res = await _uploadOneFile(client, resItem.file, destPath);
         if (res.success) {
             logger.debug(`retry upload ${resItem.file} success`);
             break;
@@ -246,7 +241,7 @@ function getFailFileList() {
 }
 
 // 防止出错终止所有的上传所以只有resolve状态
-function uploadOneFile(client, file, destPath) {
+function _uploadOneFile(client, file, destPath) {
     return new Promise((resolve, reject) => {
         logger.info('start-upload', 'file', file);
         client.put(file, destPath + file, function(err) {

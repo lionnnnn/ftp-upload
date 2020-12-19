@@ -2681,3 +2681,88 @@
 [2020-12-19T17:04:17.476] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
 [2020-12-19T17:04:17.477] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
 [2020-12-19T17:04:17.477] [INFO] default - close connection.
+[2020-12-19T17:18:20.630] [INFO] default - login fn start...
+[2020-12-19T17:18:20.632] [INFO] default - login options: 
+[2020-12-19T17:18:20.632] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T17:18:20.632] [DEBUG] default - [login]: port => 21
+[2020-12-19T17:18:20.632] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T17:18:20.632] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T17:18:20.632] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T17:18:20.633] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T17:18:20.633] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T17:18:20.633] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T17:18:20.979] [INFO] default - server is ready.
+[2020-12-19T17:18:20.980] [INFO] default - start upload fn
+[2020-12-19T17:18:20.981] [INFO] default - start getfileFromPath..
+[2020-12-19T17:18:20.985] [DEBUG] default - [_getFilePathFromPath]: filePaths => ["./upload_files/"]
+[2020-12-19T17:18:20.985] [INFO] default - ./upload_files/is a filefalse
+[2020-12-19T17:18:20.985] [INFO] default - ./upload_files/is a dirtrue
+[2020-12-19T17:18:20.986] [DEBUG] default - [_getFilePathFromPath]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T17:18:20.986] [INFO] default - start list fn
+[2020-12-19T17:18:20.986] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T17:18:21.045] [DEBUG] default - [list]: err => undefined
+[2020-12-19T17:18:21.045] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:53:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:53:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:53:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T17:18:21.046] [INFO] default - file list on server: 
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T08:53:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T17:18:21.046] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T17:18:21.047] [DEBUG] default - [_parallelUpload]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T17:18:21.047] [DEBUG] default - [_parallelUpload]: destPath => "/yjc/"
+[2020-12-19T17:18:21.047] [DEBUG] default - [start-upload]: file => "szy20201219.txt"
+[2020-12-19T17:18:21.047] [DEBUG] default - [start-upload]: file => "test20201212-1.txt"
+[2020-12-19T17:18:21.047] [DEBUG] default - [start-upload]: file => "test502-1.txt"
+[2020-12-19T17:18:21.114] [DEBUG] default - [end-upload success]: file => "szy20201219.txt"
+[2020-12-19T17:18:21.176] [DEBUG] default - [end-upload success]: file => "test20201212-1.txt"
+[2020-12-19T17:18:21.230] [DEBUG] default - [end-upload success]: file => "test502-1.txt"
+[2020-12-19T17:18:21.231] [INFO] default - upload File failed number: 0
+[2020-12-19T17:18:21.231] [DEBUG] default - [_parallelUpload]: failFileList => []
+[2020-12-19T17:18:21.231] [DEBUG] default - [upload-success]: fileList => ["szy20201219.txt","test20201212-1.txt","test502-1.txt"]
+[2020-12-19T17:18:21.231] [INFO] default - start list fn
+[2020-12-19T17:18:21.232] [DEBUG] default - [list]: destPath => "/yjc/"
+[2020-12-19T17:18:21.285] [DEBUG] default - [list]: err => undefined
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: list => [{"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T09:18:00.000Z"},{"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"},{"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T09:18:00.000Z"},{"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"},{"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"},{"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T09:18:00.000Z"},{"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"},{"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}]
+[2020-12-19T17:18:21.286] [INFO] default - file list on server: 
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"szy20201219.txt","type":"-","size":15,"date":"2020-12-19T09:18:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test.txt","type":"-","size":8,"date":"2020-12-06T08:39:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test1.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test123.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test2.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test20201212-1.txt","type":"-","size":18,"date":"2020-12-19T09:18:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test20201212.txt","type":"-","size":16,"date":"2020-12-12T08:45:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test3.txt","type":"-","size":9,"date":"2020-12-12T01:05:00.000Z"}
+[2020-12-19T17:18:21.286] [DEBUG] default - [list]: fileInfo => {"name":"test502-1.txt","type":"-","size":13,"date":"2020-12-19T09:18:00.000Z"}
+[2020-12-19T17:18:21.287] [DEBUG] default - [list]: fileInfo => {"name":"test502.txt","type":"-","size":11,"date":"2020-12-12T09:46:00.000Z"}
+[2020-12-19T17:18:21.287] [DEBUG] default - [list]: fileInfo => {"name":"text1.txt","type":"-","size":9,"date":"2020-12-12T07:37:00.000Z"}
+[2020-12-19T17:18:21.287] [INFO] default - close connection.
+[2020-12-19T17:18:29.323] [INFO] default - login fn start...
+[2020-12-19T17:18:29.325] [INFO] default - login options: 
+[2020-12-19T17:18:29.325] [DEBUG] default - [login]: host => "47.107.157.97"
+[2020-12-19T17:18:29.325] [DEBUG] default - [login]: port => 21
+[2020-12-19T17:18:29.326] [DEBUG] default - [login]: user => "ftp"
+[2020-12-19T17:18:29.326] [DEBUG] default - [login]: password => "Admin@123"
+[2020-12-19T17:18:29.326] [DEBUG] default - [validateEmpty]: host => false
+[2020-12-19T17:18:29.326] [DEBUG] default - [validateEmpty]: port => false
+[2020-12-19T17:18:29.326] [DEBUG] default - [validateEmpty]: user => false
+[2020-12-19T17:18:29.326] [DEBUG] default - [validateEmpty]: password => false
+[2020-12-19T17:18:29.649] [INFO] default - server is ready.
+[2020-12-19T17:18:29.650] [INFO] default - start list fn
+[2020-12-19T17:18:29.650] [DEBUG] default - [list]: destPath => "/"
+[2020-12-19T17:18:29.698] [DEBUG] default - [list]: err => undefined
+[2020-12-19T17:18:29.699] [DEBUG] default - [list]: list => [{"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"},{"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"},{"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"},{"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"},{"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"},{"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"},{"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}]
+[2020-12-19T17:18:29.699] [INFO] default - file list on server: 
+[2020-12-19T17:18:29.699] [DEBUG] default - [list]: fileInfo => {"name":"cjw","type":"d","size":0,"date":"2020-12-12T10:05:00.000Z"}
+[2020-12-19T17:18:29.699] [DEBUG] default - [list]: fileInfo => {"name":"czm","type":"d","size":0,"date":"2020-12-19T07:38:00.000Z"}
+[2020-12-19T17:18:29.699] [DEBUG] default - [list]: fileInfo => {"name":"gyh","type":"-","size":148,"date":"2020-12-06T05:38:00.000Z"}
+[2020-12-19T17:18:29.699] [DEBUG] default - [list]: fileInfo => {"name":"xyx","type":"d","size":0,"date":"2020-12-19T01:40:00.000Z"}
+[2020-12-19T17:18:29.700] [DEBUG] default - [list]: fileInfo => {"name":"yjc","type":"d","size":0,"date":"2020-12-19T07:01:00.000Z"}
+[2020-12-19T17:18:29.700] [DEBUG] default - [list]: fileInfo => {"name":"zjy","type":"d","size":0,"date":"2020-12-12T06:05:00.000Z"}
+[2020-12-19T17:18:29.700] [DEBUG] default - [list]: fileInfo => {"name":"zqh","type":"d","size":0,"date":"2020-12-13T10:05:00.000Z"}
+[2020-12-19T17:18:29.700] [INFO] default - close connection.
