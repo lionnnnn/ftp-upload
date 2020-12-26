@@ -3,7 +3,7 @@
  * @Author: lion
  * @Date: 2020-12-06 11:13:26
  * @LastEditors: jacksonyyy
- * @LastEditTime: 2020-12-26 11:29:42
+ * @LastEditTime: 2020-12-26 14:01:06
  */
 const ftp = require('ftp');
 const file = require('../file_opr/index.js');
@@ -33,7 +33,7 @@ function login(client, options = {}) {
 
     if (!validate.validateLoginOptions(options)) {
         logger.error()
-        return Promise.reject('login failed, pleas correct and retry');
+        return Promise.reject('login failed, please correct and retry');
     };
 
     return new Promise((resolve, reject) => {
