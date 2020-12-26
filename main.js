@@ -2,14 +2,14 @@
  * @Description: Description
  * @Author: lion
  * @Date: 2020-12-06 16:46:52
- * @LastEditors: lion
- * @LastEditTime: 2020-12-12 17:43:35
+ * @LastEditors: jacksonyyy
+ * @LastEditTime: 2020-12-26 10:56:36
  */
 
 const MyFtp = require('./ftp/index.js');
 
 async function main() {
-    let client = new MyFtp.Client();
+    let client = new MyFtp.ftp();
     await MyFtp.login(client);
     await MyFtp.upload(client, './upload_files', '/yjc/');
     console.log(await MyFtp.list(client, '/yjc/'));

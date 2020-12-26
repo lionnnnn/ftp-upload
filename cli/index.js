@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
 const program = require('commander')
-const MyFtp = require('../ftp/index');
+const MyFtp = require('../ftp/index.js');
+const MySftp = require('../sftp/index.js');
 const logger = require('../log/index.js');
 
-let client = new MyFtp.Client();
+let client;
+let uploader;
 let isSftp = false;
 let loginOptions = {};
 program
@@ -26,12 +28,14 @@ program
             password: options.password,
             sftp: options.sftp
         };
+        client = loginOptions.sftp ? new MySftp.sftp() : new MyFtp.ftp();
+        uploader = loginOptions.sftp ? MySftp : MyFtp;
         try {
-            await MyFtp.login(client, loginOptions);
+            await uploader.login(client, loginOptions);
         } catch (err) {
             logger.error(err);
         }
-        await MyFtp.close(client);
+        await uploader.close(client);
 
     });
 
