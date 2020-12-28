@@ -2,18 +2,23 @@
  * @Description: Description
  * @Author: lion
  * @Date: 2020-12-06 16:46:52
- * @LastEditors: jacksonyyy
- * @LastEditTime: 2020-12-26 10:56:36
+ * @LastEditors: lion
+ * @LastEditTime: 2020-12-26 17:30:33
  */
 
-const MyFtp = require('./ftp/index.js');
+const uploader = require('./src/uploader/index.js');
 
 async function main() {
-    let client = new MyFtp.ftp();
-    await MyFtp.login(client);
-    await MyFtp.upload(client, './upload_files', '/yjc/');
-    console.log(await MyFtp.list(client, '/yjc/'));
-    MyFtp.close(client);
+    await uploader.connect({
+        host: '47.107.157.97',
+        port: 22,
+        user: 'sftp',
+        password: 'Admin@123',
+        sftp: false
+    });
+    await uploader.upload('./upload_files', '/yjc/');
+    await uploader.list('/yjc/');
+    await uploader.close();
 };
 
 main();
