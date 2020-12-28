@@ -36,3 +36,34 @@
             边界值，
             错误推测（反向操作 先用了错误的顺序执行代码），
             判定表驱动（排列组合）
+
+
+    .description('连接服务器')
+    .option('-h, --host [host]', 'host地址', '47.107.157.97')
+    .option('-p, --port [port]', '端口号', 21)
+    .option('-u, --user [user]', '用户名', 'ftp')
+    .option('-P, --password [password]', '密码', 'Admin@123')
+
+    .requiredOption('-p, --path [path]', '上传文件路径', './upload_files/')
+    .requiredOption('-d, --destPath [destPath]', '服务器路径', '/yjc/')
+
+    .option('-d, --destPath [destPath]', '服务器路径', '/')
+
+
+
+// sftp 默认登录信息
+const DEFAULT_SFTP_OPTIONS = {
+    host: '47.107.157.97',
+    port: 22,
+    user: 'sftp',
+    password: 'Admin@123'
+};
+
+
+// ftp 默认登录信息P
+const DEFAULT_FTP_OPTIONS = {
+    host: '47.107.157.97',
+    port: 21,
+    user: 'ftp',
+    password: 'Admin@123'
+};
