@@ -3,7 +3,7 @@
  * @Author: lion
  * @Date: 2020-12-19 11:19:11
  * @LastEditors: lion
- * @LastEditTime: 2020-12-19 17:22:39
+ * @LastEditTime: 2020-12-26 17:29:53
  */
 
 const ipReg = /((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}/g;
@@ -14,8 +14,7 @@ function validateEmpty(value) {
         return false;
     }
 
-    // TODO: commander要是直接 -d 会传true 先这样处理下
-    return !!value || value !== true;
+    return !!value;
 }
 
 

@@ -4,7 +4,7 @@
     "description": "",
     "main": "main.js",
     "bin": {
-        "myftp": "cli/index.js"
+        "myftp": "./cli/index.js"
     },
     "dependencies": {
         "address": "^1.1.2",
@@ -21,7 +21,8 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "cover": "jest --coverage"
     },
     "author": "",
     "license": "ISC"
